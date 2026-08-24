@@ -58,9 +58,14 @@ describe("parseCsv", () => {
     expect(() => parseCsv("student,object\nAlice,Ask,extra")).toThrowError(
       HinaValidationError,
     );
-    expect(() => parseCsv("")).toThrowError(
-      expect.objectContaining({ code: "UNSUPPORTED_FILE" }),
-    );
+    let emptyCsvError: unknown;
+    try {
+      parseCsv("");
+    } catch (error) {
+      emptyCsvError = error;
+    }
+    expect(emptyCsvError).toBeInstanceOf(HinaValidationError);
+    expect(emptyCsvError).toMatchObject({ code: "UNSUPPORTED_FILE" });
   });
 });
 
