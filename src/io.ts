@@ -1,5 +1,6 @@
 import Papa from "papaparse";
 
+import packageManifest from "../package.json";
 import type { PruneEdgesResult } from "./dyad";
 import { HinaValidationError } from "./errors";
 import type { CommunityResult } from "./mesoscale";
@@ -275,7 +276,7 @@ export async function exportResultsXlsx(
 
   const metadata = {
     package: "hina-js",
-    version: "0.1.1",
+    version: packageManifest.version,
     generatedAt: options.generatedAt ?? new Date().toISOString(),
     graphKind: bundle.graph?.kind ?? null,
     nodeCount: bundle.graph?.nodes.length ?? null,

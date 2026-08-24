@@ -28,5 +28,6 @@ references:
     doi: 10.21105/joss.08299
   - type: software
     title: "HINA: A Learning Analytics Tool for Heterogenous Interaction Network Analysis in Python"
+    version: "f7bb3df3609aa6b0b6d5c98108e940f662053bb5"
     doi: 10.5281/zenodo.15940278
     repository-code: "https://github.com/SHF-NAILResearchGroup/HINA"

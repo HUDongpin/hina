@@ -1,5 +1,6 @@
 import { spawnSync } from "node:child_process";
 import { readFile } from "node:fs/promises";
+import { parse as parseYaml } from "yaml";
 
 const [packageSource, packageLockSource, citation, changelog] = await Promise.all([
   readFile(new URL("../package.json", import.meta.url), "utf8"),
@@ -29,13 +30,21 @@ if (
   throw new Error("package-lock.json identity or version is out of sync.");
 }
 
-const citationVersions = citation
-  .split(/\r?\n/u)
-  .map((line) => /^\s*version:\s*['"]?([^'"\s]+)['"]?\s*$/u.exec(line)?.[1])
-  .filter((version) => version !== undefined);
+let citationDocument;
+try {
+  citationDocument = parseYaml(citation);
+} catch (error) {
+  throw new Error("CITATION.cff is not valid YAML.", { cause: error });
+}
 if (
-  citationVersions.length !== 2 ||
-  citationVersions.some((version) => version !== packageJson.version)
+  citationDocument === null ||
+  typeof citationDocument !== "object" ||
+  Array.isArray(citationDocument) ||
+  citationDocument.version !== packageJson.version ||
+  citationDocument["preferred-citation"] === null ||
+  typeof citationDocument["preferred-citation"] !== "object" ||
+  Array.isArray(citationDocument["preferred-citation"]) ||
+  citationDocument["preferred-citation"].version !== packageJson.version
 ) {
   throw new Error("CITATION.cff versions are out of sync with package.json.");
 }
