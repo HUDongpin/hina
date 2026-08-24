@@ -29,7 +29,9 @@ const packageManifest = JSON.parse(
 ) as PackageManifest;
 
 const fakeNpmSource = String.raw`#!/usr/bin/env node
-import { appendFileSync } from "node:fs";
+"use strict";
+
+const { appendFileSync } = require("node:fs");
 
 appendFileSync(
   process.env.FAKE_NPM_LOG,
@@ -89,6 +91,11 @@ beforeAll(async () => {
   await Promise.all([
     writeFile(fakeNpmLog, "", "utf8"),
     writeFile(fakeNpmPath, fakeNpmSource, "utf8"),
+    writeFile(
+      path.join(fakeBinDirectory, "package.json"),
+      `${JSON.stringify({ type: "commonjs" })}\n`,
+      "utf8",
+    ),
   ]);
   await chmod(fakeNpmPath, 0o755);
 });
