@@ -11,6 +11,19 @@ The pinned source code, its tests, and the cited HINA equations are the
 scientific baseline. The live `main` branch and the live HINA website are not
 used as unpinned CI dependencies.
 
+## Port release mapping
+
+| `hina-js` release | Upstream commit | Python package version | Scientific baseline |
+| --- | --- | --- | --- |
+| `0.1.0` | `f7bb3df3609aa6b0b6d5c98108e940f662053bb5` | `0.7.2` | Initial fixed baseline |
+| `0.1.1` | `f7bb3df3609aa6b0b6d5c98108e940f662053bb5` | `0.7.2` | Unchanged from `0.1.0` |
+
+The `0.1.1` version change hardens release authentication and documentation; it
+does not change the HINA equations, compatibility policy, oracle fixtures, or
+numerical tolerances. Future releases must update this table and
+[CHANGELOG.md](./CHANGELOG.md) explicitly whenever the pinned scientific source
+changes.
+
 ## API mapping
 
 | Python | TypeScript |

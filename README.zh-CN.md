@@ -12,8 +12,11 @@
 核心图和分析结果都只包含普通对象与数组，可安全 JSON 往返、
 `structuredClone`，并跨越 Next.js Server/Client 边界。
 
-> 当前源码版本目标为 `0.1.0`。npm 正式发布前可在仓库中执行
-> `npm pack`，使用生成的 tarball 集成。
+> 当前版本：[`hina-js@0.1.1`](https://www.npmjs.com/package/hina-js/v/0.1.1)，
+> 对应的
+> [GitHub Release](https://github.com/HUDongpin/hina/releases/tag/v0.1.1)
+> 与 npm 版本指向同一发布；首发 `0.1.0` 继续保留在发布历史中。
+> 各版本变化见 [CHANGELOG.md](./CHANGELOG.md)。
 
 ## 能力范围
 
@@ -187,9 +190,9 @@ export function GET() {
 }
 ```
 
-仓库中的 `examples/next-app` 会安装真实 `hina-js-0.1.0.tgz`，而不是依赖
-monorepo symlink，从而一起验证 exports、CSS、声明文件、Server、Client、
-Edge 与 Next 生产构建。
+仓库中的 `examples/next-app` 会安装 `npm pack --json` 返回的真实
+`hina-js-<version>.tgz`，而不是依赖 monorepo symlink，从而一起验证
+exports、CSS、声明文件、Server、Client、Edge 与 Next 生产构建。
 
 ## 范例数据
 
@@ -249,7 +252,7 @@ npm run data:build  # 确定性重建 CSV 与 XLSX
 
 构图和个体指标随 interaction 数量线性增长；投影随目标分区节点数平方增长；
 确定性 greedy MDL 社区发现会成为较大 actor 集合的主要耗时与内存来源。
-`0.1.0` 面向研究规模数据，并记录练习数据和 10,000 interaction 合成数据的
+`0.1.x` 面向研究规模数据，并记录练习数据和 10,000 interaction 合成数据的
 非阻断性能报告；不承诺无限规模、实时流式分析。
 
 本项目不包含独立网站、登录、数据库、上传服务、API 服务器、CLI、
@@ -276,6 +279,7 @@ CI 覆盖 Node `20.9`、`22`、`24`。日常 CI 使用已提交的 Python 黄金
 [CONTRIBUTING.md](./CONTRIBUTING.md)。固定上游的 47 个 pytest 场景已在
 [上游测试矩阵](https://github.com/HUDongpin/hina/blob/main/docs/UPSTREAM_TEST_MATRIX.md)
 中逐项映射。
+各版本变化记录在 [CHANGELOG.md](./CHANGELOG.md)。
 
 ## 引用与许可证
 

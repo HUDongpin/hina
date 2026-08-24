@@ -39,10 +39,23 @@ interactions, and 12 all-zero actor/lesson rows.
 
 A release is allowed only when lint, strict type checking, parity/property/unit
 tests, build, package boundary checks, a tarball-installed Next production build,
-browser E2E, dependency/license audit, and secret scan all pass. The npm package
-name must be queried again immediately before first publication.
+browser E2E, dependency/license audit, and secret scan all pass. The release
+version must agree across `package.json`, the root entries in `package-lock.json`,
+`CITATION.cff`, exported workbook metadata, the Git tag, and the corresponding
+[CHANGELOG.md](./CHANGELOG.md) entry. The changelog and `UPSTREAM.md` must state
+whether the scientific baseline changed.
 
-Publishing requires the repository Owner to confirm GitHub and npm identities,
-approve the protected `npm` environment, and complete npm 2FA. Workflows use
-short-lived OpenID Connect trusted publishing after initial setup; no long-lived
-registry token belongs in the repository.
+Immediately before publication, the release preflight must query the exact npm
+version. Only an explicit Registry `E404` proves that the version is unpublished;
+authentication, authorization, network, timeout, or other Registry failures stop
+the release.
+
+Publishing requires the repository Owner to confirm GitHub and npm identities and
+approve the protected `npm` environment. npm account 2FA protects the Owner's
+interactive npm administration; it is not an OTP input to the workflow. Current
+and future releases authenticate only through short-lived GitHub Actions OpenID
+Connect Trusted Publishing. Do not provide the workflow with `NPM_TOKEN`, an OTP,
+or a recovery code, and do not add a long-lived registry credential to the
+repository or protected environment. Follow [docs/RELEASE.md](./docs/RELEASE.md)
+for the parameterized release procedure and the separately labeled `v0.1.0`
+historical receipt.
