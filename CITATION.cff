@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: >-
+  If you use hina-js, cite this software and the original HINA article.
+title: "hina-js: Heterogeneous Interaction Network Analysis in TypeScript"
+type: software
+version: 0.1.0
+date-released: 2026-08-24
+license: MIT
+repository-code: "https://github.com/HUDongpin/hina"
+authors:
+  - family-names: Hu
+    given-names: Dongpin
+preferred-citation:
+  type: software
+  title: "hina-js: Heterogeneous Interaction Network Analysis in TypeScript"
+  version: 0.1.0
+  repository-code: "https://github.com/HUDongpin/hina"
+references:
+  - type: article
+    title: "HINA: A Learning Analytics Tool for Heterogenous Interaction Network Analysis in Python"
+    authors:
+      - family-names: Feng
+        given-names: Shihui
+      - family-names: He
+        given-names: Baiyue
+      - family-names: Kirkley
+        given-names: Alec
+    doi: 10.21105/joss.08299
+  - type: software
+    title: "HINA: A Learning Analytics Tool for Heterogenous Interaction Network Analysis in Python"
+    doi: 10.5281/zenodo.15940278
+    repository-code: "https://github.com/SHF-NAILResearchGroup/HINA"

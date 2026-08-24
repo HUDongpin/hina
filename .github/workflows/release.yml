@@ -1,0 +1,46 @@
+name: Publish npm release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  publish:
+    if: startsWith(github.event.release.tag_name, 'v')
+    runs-on: ubuntu-latest
+    environment: npm
+    steps:
+      - name: Check out the released commit
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          ref: ${{ github.event.release.tag_name }}
+          persist-credentials: false
+      - name: Set up Node.js 24
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 24
+          registry-url: https://registry.npmjs.org
+          package-manager-cache: false
+      - name: Require current trusted-publishing npm
+        run: npm install --global npm@11.16.0
+      - run: npm ci --ignore-scripts
+      - name: Verify release tag, package identity, and version availability
+        env:
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+        run: node scripts/release-preflight.mjs
+      - run: npm run data:check
+      - run: npm run check
+      - run: npm audit --omit=dev --audit-level=high
+      - run: npm run test:next
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - name: Publish public package with provenance
+        env:
+          # Only the initial name-claim can fall back to this one-time secret.
+          # Delete the secret after configuring npm Trusted Publishing.
+          NPM_TOKEN: ${{ github.event.release.tag_name == 'v0.1.0' && secrets.NPM_TOKEN || '' }}
+        run: node scripts/publish.mjs

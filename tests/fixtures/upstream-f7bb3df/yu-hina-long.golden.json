@@ -1,0 +1,6694 @@
+{
+  "bipartite": {
+    "communities": {
+      "baselineDescriptionLength": 648.0651117743074,
+      "communityCount": 2,
+      "compressionRatio": 1.0348996517920732,
+      "descriptionLength": 670.6823585138218,
+      "fixedCommunityCount": 2,
+      "partition": [
+        [
+          "Control::Student 1",
+          "Control::Student 10",
+          "Control::Student 11",
+          "Control::Student 12",
+          "Control::Student 14",
+          "Control::Student 15",
+          "Control::Student 16",
+          "Control::Student 18",
+          "Control::Student 19",
+          "Control::Student 2",
+          "Control::Student 20",
+          "Control::Student 21",
+          "Control::Student 22",
+          "Control::Student 23",
+          "Control::Student 24",
+          "Control::Student 25",
+          "Control::Student 26",
+          "Control::Student 27",
+          "Control::Student 28",
+          "Control::Student 29",
+          "Control::Student 3",
+          "Control::Student 30",
+          "Control::Student 31",
+          "Control::Student 32",
+          "Control::Student 33",
+          "Control::Student 34",
+          "Control::Student 35",
+          "Control::Student 36",
+          "Control::Student 37",
+          "Control::Student 38",
+          "Control::Student 39",
+          "Control::Student 4",
+          "Control::Student 40",
+          "Control::Student 41",
+          "Control::Student 42",
+          "Control::Student 5",
+          "Control::Student 6",
+          "Control::Student 7",
+          "Control::Student 8",
+          "Control::Student 9",
+          "Experimental::Student 1",
+          "Experimental::Student 10",
+          "Experimental::Student 11",
+          "Experimental::Student 12",
+          "Experimental::Student 13",
+          "Experimental::Student 14",
+          "Experimental::Student 15",
+          "Experimental::Student 16",
+          "Experimental::Student 17",
+          "Experimental::Student 18",
+          "Experimental::Student 19",
+          "Experimental::Student 2",
+          "Experimental::Student 20",
+          "Experimental::Student 21",
+          "Experimental::Student 22",
+          "Experimental::Student 23",
+          "Experimental::Student 24",
+          "Experimental::Student 25",
+          "Experimental::Student 26",
+          "Experimental::Student 27",
+          "Experimental::Student 28",
+          "Experimental::Student 29",
+          "Experimental::Student 3",
+          "Experimental::Student 30",
+          "Experimental::Student 31",
+          "Experimental::Student 32",
+          "Experimental::Student 33",
+          "Experimental::Student 34",
+          "Experimental::Student 35",
+          "Experimental::Student 36",
+          "Experimental::Student 37",
+          "Experimental::Student 38",
+          "Experimental::Student 39",
+          "Experimental::Student 4",
+          "Experimental::Student 40",
+          "Experimental::Student 41",
+          "Experimental::Student 42",
+          "Experimental::Student 43",
+          "Experimental::Student 44",
+          "Experimental::Student 45",
+          "Experimental::Student 5",
+          "Experimental::Student 6",
+          "Experimental::Student 7",
+          "Experimental::Student 8",
+          "Experimental::Student 9"
+        ],
+        [
+          "Control::Student 13"
+        ]
+      ]
+    },
+    "graph": {
+      "actorCount": 86,
+      "actors": [
+        "Control::Student 1",
+        "Control::Student 10",
+        "Control::Student 11",
+        "Control::Student 12",
+        "Control::Student 13",
+        "Control::Student 14",
+        "Control::Student 15",
+        "Control::Student 16",
+        "Control::Student 18",
+        "Control::Student 19",
+        "Control::Student 2",
+        "Control::Student 20",
+        "Control::Student 21",
+        "Control::Student 22",
+        "Control::Student 23",
+        "Control::Student 24",
+        "Control::Student 25",
+        "Control::Student 26",
+        "Control::Student 27",
+        "Control::Student 28",
+        "Control::Student 29",
+        "Control::Student 3",
+        "Control::Student 30",
+        "Control::Student 31",
+        "Control::Student 32",
+        "Control::Student 33",
+        "Control::Student 34",
+        "Control::Student 35",
+        "Control::Student 36",
+        "Control::Student 37",
+        "Control::Student 38",
+        "Control::Student 39",
+        "Control::Student 4",
+        "Control::Student 40",
+        "Control::Student 41",
+        "Control::Student 42",
+        "Control::Student 5",
+        "Control::Student 6",
+        "Control::Student 7",
+        "Control::Student 8",
+        "Control::Student 9",
+        "Experimental::Student 1",
+        "Experimental::Student 10",
+        "Experimental::Student 11",
+        "Experimental::Student 12",
+        "Experimental::Student 13",
+        "Experimental::Student 14",
+        "Experimental::Student 15",
+        "Experimental::Student 16",
+        "Experimental::Student 17",
+        "Experimental::Student 18",
+        "Experimental::Student 19",
+        "Experimental::Student 2",
+        "Experimental::Student 20",
+        "Experimental::Student 21",
+        "Experimental::Student 22",
+        "Experimental::Student 23",
+        "Experimental::Student 24",
+        "Experimental::Student 25",
+        "Experimental::Student 26",
+        "Experimental::Student 27",
+        "Experimental::Student 28",
+        "Experimental::Student 29",
+        "Experimental::Student 3",
+        "Experimental::Student 30",
+        "Experimental::Student 31",
+        "Experimental::Student 32",
+        "Experimental::Student 33",
+        "Experimental::Student 34",
+        "Experimental::Student 35",
+        "Experimental::Student 36",
+        "Experimental::Student 37",
+        "Experimental::Student 38",
+        "Experimental::Student 39",
+        "Experimental::Student 4",
+        "Experimental::Student 40",
+        "Experimental::Student 41",
+        "Experimental::Student 42",
+        "Experimental::Student 43",
+        "Experimental::Student 44",
+        "Experimental::Student 45",
+        "Experimental::Student 5",
+        "Experimental::Student 6",
+        "Experimental::Student 7",
+        "Experimental::Student 8",
+        "Experimental::Student 9"
+      ],
+      "edgeCount": 317,
+      "edges": [
+        {
+          "source": "Control::Student 1",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 1",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 10",
+          "target": "ATT",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 10",
+          "target": "EC",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 10",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 10",
+          "target": "NI",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 10",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 10",
+          "target": "SR",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 11",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 11",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 11",
+          "target": "NI",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 12",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 12",
+          "target": "SR",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 13",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 13",
+          "target": "EC",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 13",
+          "target": "MCO",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 13",
+          "target": "NI",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 13",
+          "target": "SC",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 13",
+          "target": "SR",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 14",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 14",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 14",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 14",
+          "target": "SR",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 15",
+          "target": "MCO",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 15",
+          "target": "NI",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 15",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 16",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 18",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 18",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 18",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 19",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 19",
+          "target": "ICT",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 19",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 19",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 2",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 2",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 2",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 2",
+          "target": "MCO",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 2",
+          "target": "SC",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 20",
+          "target": "ATT",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 20",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 20",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 20",
+          "target": "MCO",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 20",
+          "target": "SR",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 21",
+          "target": "ATT",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 21",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 21",
+          "target": "MCO",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 22",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 22",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 22",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 23",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 23",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 23",
+          "target": "SR",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 24",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 24",
+          "target": "EC",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 24",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 24",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 24",
+          "target": "SR",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 25",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 25",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 25",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 25",
+          "target": "NI",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 25",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 26",
+          "target": "ATT",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 26",
+          "target": "EC",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 26",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 27",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 27",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 28",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 28",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 29",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 29",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 29",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 29",
+          "target": "SC",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 3",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 3",
+          "target": "EC",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 3",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 3",
+          "target": "SR",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 30",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 30",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 30",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 30",
+          "target": "NI",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 30",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 31",
+          "target": "ATT",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 31",
+          "target": "EC",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 31",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 31",
+          "target": "NI",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 31",
+          "target": "SC",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 32",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 32",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 32",
+          "target": "MCO",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 33",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 33",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 33",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 33",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 33",
+          "target": "SR",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 34",
+          "target": "EC",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 34",
+          "target": "ICT",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 35",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 36",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 36",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 36",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 36",
+          "target": "MCO",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 36",
+          "target": "SC",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 37",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 37",
+          "target": "EC",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 37",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 38",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 38",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 38",
+          "target": "ICT",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 38",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 38",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 38",
+          "target": "SR",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 39",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 39",
+          "target": "EC",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 39",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 39",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 4",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 4",
+          "target": "EC",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 4",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 4",
+          "target": "NI",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 4",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 40",
+          "target": "ATT",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 40",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 40",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 41",
+          "target": "ATT",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 41",
+          "target": "MCO",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 42",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 42",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 42",
+          "target": "NI",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 5",
+          "target": "ATT",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 5",
+          "target": "EC",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 5",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 5",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 5",
+          "target": "NI",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 6",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 6",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 6",
+          "target": "NI",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 6",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 7",
+          "target": "ATT",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 7",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 7",
+          "target": "MCO",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 7",
+          "target": "SC",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 8",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 8",
+          "target": "MCO",
+          "weight": 2
+        },
+        {
+          "source": "Control::Student 8",
+          "target": "NI",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 9",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 9",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 9",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 9",
+          "target": "MCO",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 1",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 1",
+          "target": "EC",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 1",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 10",
+          "target": "ATT",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 10",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 10",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 10",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 11",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 11",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 11",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 12",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 12",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 12",
+          "target": "ICT",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 12",
+          "target": "NI",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 12",
+          "target": "SC",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 13",
+          "target": "ATT",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 13",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 13",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 13",
+          "target": "SR",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 14",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 14",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 14",
+          "target": "ICT",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 14",
+          "target": "MCO",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 15",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 15",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 15",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 15",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 15",
+          "target": "NI",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 15",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 16",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 16",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 16",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 17",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 17",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 18",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 18",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 19",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 19",
+          "target": "MCO",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 19",
+          "target": "SR",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 2",
+          "target": "EC",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 2",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 2",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 20",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 20",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 20",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 20",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 21",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 21",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 22",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 22",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 22",
+          "target": "NI",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 23",
+          "target": "ATT",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 23",
+          "target": "MCO",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 23",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 24",
+          "target": "EC",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 24",
+          "target": "NI",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 25",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 25",
+          "target": "ICT",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 25",
+          "target": "MCO",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 25",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 26",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 26",
+          "target": "EC",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 26",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 26",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 26",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 27",
+          "target": "ATT",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 27",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 27",
+          "target": "NI",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 27",
+          "target": "SR",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 28",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 28",
+          "target": "ICT",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 28",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 28",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 29",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 29",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 29",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 29",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 29",
+          "target": "SR",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 3",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 3",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 3",
+          "target": "ICT",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 30",
+          "target": "ATT",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 30",
+          "target": "EC",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 30",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 30",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 31",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 31",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 31",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 31",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 31",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 32",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 32",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 32",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 32",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 32",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 32",
+          "target": "SR",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 33",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 33",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 33",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 33",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 33",
+          "target": "SR",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 34",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 34",
+          "target": "EC",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 34",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 34",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 35",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 35",
+          "target": "EC",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 35",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 35",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 35",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 36",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 36",
+          "target": "ICT",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 36",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 37",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 37",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 37",
+          "target": "SR",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 38",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 38",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 38",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 39",
+          "target": "ATT",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 39",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 39",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 39",
+          "target": "SR",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 4",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 4",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 4",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 4",
+          "target": "NI",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 4",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 40",
+          "target": "ATT",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 40",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 40",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 40",
+          "target": "NI",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 40",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 41",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 41",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 41",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 42",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 42",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 42",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 42",
+          "target": "SR",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 43",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 43",
+          "target": "EC",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 43",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 43",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 44",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 44",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 44",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 44",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 45",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 45",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 45",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 45",
+          "target": "SR",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 5",
+          "target": "ATT",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 5",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 5",
+          "target": "MCO",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 5",
+          "target": "SC",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 6",
+          "target": "EC",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 7",
+          "target": "ATT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 7",
+          "target": "EC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 7",
+          "target": "ICT",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 7",
+          "target": "SC",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 8",
+          "target": "EC",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 8",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 9",
+          "target": "ATT",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 9",
+          "target": "ICT",
+          "weight": 2
+        },
+        {
+          "source": "Experimental::Student 9",
+          "target": "MCO",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 9",
+          "target": "SC",
+          "weight": 1
+        }
+      ],
+      "nodeCount": 93,
+      "objectCount": 7,
+      "objects": [
+        "ATT",
+        "EC",
+        "ICT",
+        "MCO",
+        "NI",
+        "SC",
+        "SR"
+      ],
+      "totalWeight": 391
+    },
+    "individual": {
+      "categoryCount": 7,
+      "rows": [
+        {
+          "actor": "Control::Student 1",
+          "diversity": 0.3562071871080222,
+          "normalizedQuantity": 0.005115089514066497,
+          "normalizedQuantityByGroup": 0.010471204188481676,
+          "quantity": 2
+        },
+        {
+          "actor": "Control::Student 10",
+          "diversity": 0.8905179677700554,
+          "normalizedQuantity": 0.020460358056265983,
+          "normalizedQuantityByGroup": 0.041884816753926704,
+          "quantity": 8
+        },
+        {
+          "actor": "Control::Student 11",
+          "diversity": 0.5645750340535796,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015706806282722512,
+          "quantity": 3
+        },
+        {
+          "actor": "Control::Student 12",
+          "diversity": 0.3562071871080222,
+          "normalizedQuantity": 0.005115089514066497,
+          "normalizedQuantityByGroup": 0.010471204188481676,
+          "quantity": 2
+        },
+        {
+          "actor": "Control::Student 13",
+          "diversity": 0.8916786100351446,
+          "normalizedQuantity": 0.02301790281329923,
+          "normalizedQuantityByGroup": 0.04712041884816754,
+          "quantity": 9
+        },
+        {
+          "actor": "Control::Student 14",
+          "diversity": 0.7124143742160444,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.020942408376963352,
+          "quantity": 4
+        },
+        {
+          "actor": "Control::Student 15",
+          "diversity": 0.5343107806620332,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.020942408376963352,
+          "quantity": 4
+        },
+        {
+          "actor": "Control::Student 16",
+          "diversity": 0,
+          "normalizedQuantity": 0.0025575447570332483,
+          "normalizedQuantityByGroup": 0.005235602094240838,
+          "quantity": 1
+        },
+        {
+          "actor": "Control::Student 18",
+          "diversity": 0.5645750340535796,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015706806282722512,
+          "quantity": 3
+        },
+        {
+          "actor": "Control::Student 19",
+          "diversity": 0.6846046005037073,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.02617801047120419,
+          "quantity": 5
+        },
+        {
+          "actor": "Control::Student 2",
+          "diversity": 0.796453035938273,
+          "normalizedQuantity": 0.01790281329923274,
+          "normalizedQuantityByGroup": 0.03664921465968586,
+          "quantity": 7
+        },
+        {
+          "actor": "Control::Student 20",
+          "diversity": 0.796453035938273,
+          "normalizedQuantity": 0.017902813299232736,
+          "normalizedQuantityByGroup": 0.03664921465968586,
+          "quantity": 7
+        },
+        {
+          "actor": "Control::Student 21",
+          "diversity": 0.5421217256604984,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.02617801047120419,
+          "quantity": 5
+        },
+        {
+          "actor": "Control::Student 22",
+          "diversity": 0.5645750340535796,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015706806282722512,
+          "quantity": 3
+        },
+        {
+          "actor": "Control::Student 23",
+          "diversity": 0.5645750340535796,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015706806282722512,
+          "quantity": 3
+        },
+        {
+          "actor": "Control::Student 24",
+          "diversity": 0.8020464921255943,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.031413612565445025,
+          "quantity": 6
+        },
+        {
+          "actor": "Control::Student 25",
+          "diversity": 0.8270874753469163,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.02617801047120419,
+          "quantity": 5
+        },
+        {
+          "actor": "Control::Student 26",
+          "diversity": 0.5421217256604984,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.02617801047120419,
+          "quantity": 5
+        },
+        {
+          "actor": "Control::Student 27",
+          "diversity": 0.3562071871080222,
+          "normalizedQuantity": 0.005115089514066497,
+          "normalizedQuantityByGroup": 0.010471204188481676,
+          "quantity": 2
+        },
+        {
+          "actor": "Control::Student 28",
+          "diversity": 0.3562071871080222,
+          "normalizedQuantity": 0.005115089514066497,
+          "normalizedQuantityByGroup": 0.010471204188481676,
+          "quantity": 2
+        },
+        {
+          "actor": "Control::Student 29",
+          "diversity": 0.6846046005037073,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.02617801047120419,
+          "quantity": 5
+        },
+        {
+          "actor": "Control::Student 3",
+          "diversity": 0.6833107630895869,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.031413612565445025,
+          "quantity": 6
+        },
+        {
+          "actor": "Control::Student 30",
+          "diversity": 0.8270874753469163,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.02617801047120419,
+          "quantity": 5
+        },
+        {
+          "actor": "Control::Student 31",
+          "diversity": 0.80146617099305,
+          "normalizedQuantity": 0.020460358056265983,
+          "normalizedQuantityByGroup": 0.041884816753926704,
+          "quantity": 8
+        },
+        {
+          "actor": "Control::Student 32",
+          "diversity": 0.5343107806620332,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.020942408376963352,
+          "quantity": 4
+        },
+        {
+          "actor": "Control::Student 33",
+          "diversity": 0.8270874753469163,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.02617801047120419,
+          "quantity": 5
+        },
+        {
+          "actor": "Control::Student 34",
+          "diversity": 0.3562071871080222,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.020942408376963352,
+          "quantity": 4
+        },
+        {
+          "actor": "Control::Student 35",
+          "diversity": 0,
+          "normalizedQuantity": 0.0025575447570332483,
+          "normalizedQuantityByGroup": 0.005235602094240838,
+          "quantity": 1
+        },
+        {
+          "actor": "Control::Student 36",
+          "diversity": 0.796453035938273,
+          "normalizedQuantity": 0.01790281329923274,
+          "normalizedQuantityByGroup": 0.03664921465968586,
+          "quantity": 7
+        },
+        {
+          "actor": "Control::Student 37",
+          "diversity": 0.5343107806620332,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.020942408376963352,
+          "quantity": 4
+        },
+        {
+          "actor": "Control::Student 38",
+          "diversity": 0.8982265179691364,
+          "normalizedQuantity": 0.01790281329923274,
+          "normalizedQuantityByGroup": 0.03664921465968586,
+          "quantity": 7
+        },
+        {
+          "actor": "Control::Student 39",
+          "diversity": 0.6846046005037073,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.02617801047120419,
+          "quantity": 5
+        },
+        {
+          "actor": "Control::Student 4",
+          "diversity": 0.8020464921255943,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.031413612565445025,
+          "quantity": 6
+        },
+        {
+          "actor": "Control::Student 40",
+          "diversity": 0.5343107806620332,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.020942408376963352,
+          "quantity": 4
+        },
+        {
+          "actor": "Control::Student 41",
+          "diversity": 0.3562071871080222,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.020942408376963352,
+          "quantity": 4
+        },
+        {
+          "actor": "Control::Student 42",
+          "diversity": 0.5645750340535796,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015706806282722512,
+          "quantity": 3
+        },
+        {
+          "actor": "Control::Student 5",
+          "diversity": 0.796453035938273,
+          "normalizedQuantity": 0.01790281329923274,
+          "normalizedQuantityByGroup": 0.03664921465968586,
+          "quantity": 7
+        },
+        {
+          "actor": "Control::Student 6",
+          "diversity": 0.7124143742160444,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.020942408376963352,
+          "quantity": 4
+        },
+        {
+          "actor": "Control::Student 7",
+          "diversity": 0.6946795539074095,
+          "normalizedQuantity": 0.017902813299232736,
+          "normalizedQuantityByGroup": 0.03664921465968586,
+          "quantity": 7
+        },
+        {
+          "actor": "Control::Student 8",
+          "diversity": 0.5343107806620332,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.020942408376963352,
+          "quantity": 4
+        },
+        {
+          "actor": "Control::Student 9",
+          "diversity": 0.6846046005037073,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.02617801047120419,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 1",
+          "diversity": 0.5343107806620332,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.02,
+          "quantity": 4
+        },
+        {
+          "actor": "Experimental::Student 10",
+          "diversity": 0.6846046005037073,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 11",
+          "diversity": 0.5645750340535796,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015,
+          "quantity": 3
+        },
+        {
+          "actor": "Experimental::Student 12",
+          "diversity": 0.796453035938273,
+          "normalizedQuantity": 0.017902813299232736,
+          "normalizedQuantityByGroup": 0.035,
+          "quantity": 7
+        },
+        {
+          "actor": "Experimental::Student 13",
+          "diversity": 0.6846046005037073,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 14",
+          "diversity": 0.6833107630895869,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.03,
+          "quantity": 6
+        },
+        {
+          "actor": "Experimental::Student 15",
+          "diversity": 0.9207822211616017,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.03,
+          "quantity": 6
+        },
+        {
+          "actor": "Experimental::Student 16",
+          "diversity": 0.5645750340535796,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015,
+          "quantity": 3
+        },
+        {
+          "actor": "Experimental::Student 17",
+          "diversity": 0.3562071871080222,
+          "normalizedQuantity": 0.005115089514066497,
+          "normalizedQuantityByGroup": 0.01,
+          "quantity": 2
+        },
+        {
+          "actor": "Experimental::Student 18",
+          "diversity": 0.3562071871080222,
+          "normalizedQuantity": 0.005115089514066497,
+          "normalizedQuantityByGroup": 0.01,
+          "quantity": 2
+        },
+        {
+          "actor": "Experimental::Student 19",
+          "diversity": 0.5343107806620332,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.02,
+          "quantity": 4
+        },
+        {
+          "actor": "Experimental::Student 2",
+          "diversity": 0.5343107806620332,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.02,
+          "quantity": 4
+        },
+        {
+          "actor": "Experimental::Student 20",
+          "diversity": 0.7124143742160444,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.02,
+          "quantity": 4
+        },
+        {
+          "actor": "Experimental::Student 21",
+          "diversity": 0.3562071871080222,
+          "normalizedQuantity": 0.005115089514066497,
+          "normalizedQuantityByGroup": 0.01,
+          "quantity": 2
+        },
+        {
+          "actor": "Experimental::Student 22",
+          "diversity": 0.5645750340535796,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015,
+          "quantity": 3
+        },
+        {
+          "actor": "Experimental::Student 23",
+          "diversity": 0.5421217256604984,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 24",
+          "diversity": 0.3271035759815648,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015,
+          "quantity": 3
+        },
+        {
+          "actor": "Experimental::Student 25",
+          "diversity": 0.6833107630895869,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.03,
+          "quantity": 6
+        },
+        {
+          "actor": "Experimental::Student 26",
+          "diversity": 0.8020464921255943,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.03,
+          "quantity": 6
+        },
+        {
+          "actor": "Experimental::Student 27",
+          "diversity": 0.6846046005037073,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 28",
+          "diversity": 0.6846046005037073,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 29",
+          "diversity": 0.8270874753469163,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 3",
+          "diversity": 0.5343107806620332,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.02,
+          "quantity": 4
+        },
+        {
+          "actor": "Experimental::Student 30",
+          "diversity": 0.6833107630895869,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.03,
+          "quantity": 6
+        },
+        {
+          "actor": "Experimental::Student 31",
+          "diversity": 0.8270874753469163,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 32",
+          "diversity": 0.9207822211616017,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.03,
+          "quantity": 6
+        },
+        {
+          "actor": "Experimental::Student 33",
+          "diversity": 0.8270874753469163,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 34",
+          "diversity": 0.6846046005037073,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 35",
+          "diversity": 0.8020464921255943,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.03,
+          "quantity": 6
+        },
+        {
+          "actor": "Experimental::Student 36",
+          "diversity": 0.5343107806620332,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.02,
+          "quantity": 4
+        },
+        {
+          "actor": "Experimental::Student 37",
+          "diversity": 0.5645750340535796,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015,
+          "quantity": 3
+        },
+        {
+          "actor": "Experimental::Student 38",
+          "diversity": 0.5645750340535796,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015,
+          "quantity": 3
+        },
+        {
+          "actor": "Experimental::Student 39",
+          "diversity": 0.6846046005037073,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 4",
+          "diversity": 0.8270874753469163,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 40",
+          "diversity": 0.8020464921255943,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.03,
+          "quantity": 6
+        },
+        {
+          "actor": "Experimental::Student 41",
+          "diversity": 0.5645750340535796,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015,
+          "quantity": 3
+        },
+        {
+          "actor": "Experimental::Student 42",
+          "diversity": 0.7124143742160444,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.02,
+          "quantity": 4
+        },
+        {
+          "actor": "Experimental::Student 43",
+          "diversity": 0.6846046005037073,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 44",
+          "diversity": 0.7124143742160444,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.02,
+          "quantity": 4
+        },
+        {
+          "actor": "Experimental::Student 45",
+          "diversity": 0.7124143742160444,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.02,
+          "quantity": 4
+        },
+        {
+          "actor": "Experimental::Student 5",
+          "diversity": 0.6946795539074095,
+          "normalizedQuantity": 0.017902813299232736,
+          "normalizedQuantityByGroup": 0.035,
+          "quantity": 7
+        },
+        {
+          "actor": "Experimental::Student 6",
+          "diversity": 0,
+          "normalizedQuantity": 0.005115089514066497,
+          "normalizedQuantityByGroup": 0.01,
+          "quantity": 2
+        },
+        {
+          "actor": "Experimental::Student 7",
+          "diversity": 0.7124143742160444,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.02,
+          "quantity": 4
+        },
+        {
+          "actor": "Experimental::Student 8",
+          "diversity": 0.3271035759815648,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015,
+          "quantity": 3
+        },
+        {
+          "actor": "Experimental::Student 9",
+          "diversity": 0.683310763089587,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.03,
+          "quantity": 6
+        }
+      ]
+    },
+    "projection": {
+      "metric": "cosine-l2",
+      "similarities": [
+        {
+          "similarity": 0.6570310336258145,
+          "source": "ATT",
+          "target": "EC"
+        },
+        {
+          "similarity": 0.5455279134749801,
+          "source": "ATT",
+          "target": "ICT"
+        },
+        {
+          "similarity": 0.6320441270088056,
+          "source": "ATT",
+          "target": "MCO"
+        },
+        {
+          "similarity": 0.4223886030955116,
+          "source": "ATT",
+          "target": "NI"
+        },
+        {
+          "similarity": 0.6538625481582945,
+          "source": "ATT",
+          "target": "SC"
+        },
+        {
+          "similarity": 0.4414920772078342,
+          "source": "ATT",
+          "target": "SR"
+        },
+        {
+          "similarity": 0.6248966856757963,
+          "source": "EC",
+          "target": "ICT"
+        },
+        {
+          "similarity": 0.5456232862305711,
+          "source": "EC",
+          "target": "MCO"
+        },
+        {
+          "similarity": 0.4392976851069794,
+          "source": "EC",
+          "target": "NI"
+        },
+        {
+          "similarity": 0.5448686650003406,
+          "source": "EC",
+          "target": "SC"
+        },
+        {
+          "similarity": 0.3992747047523453,
+          "source": "EC",
+          "target": "SR"
+        },
+        {
+          "similarity": 0.5329565554370113,
+          "source": "ICT",
+          "target": "MCO"
+        },
+        {
+          "similarity": 0.23529914352720094,
+          "source": "ICT",
+          "target": "NI"
+        },
+        {
+          "similarity": 0.5213311661791026,
+          "source": "ICT",
+          "target": "SC"
+        },
+        {
+          "similarity": 0.23762422826087873,
+          "source": "ICT",
+          "target": "SR"
+        },
+        {
+          "similarity": 0.29676034338668433,
+          "source": "MCO",
+          "target": "NI"
+        },
+        {
+          "similarity": 0.5630054846788328,
+          "source": "MCO",
+          "target": "SC"
+        },
+        {
+          "similarity": 0.31121939502245094,
+          "source": "MCO",
+          "target": "SR"
+        },
+        {
+          "similarity": 0.4142761324995806,
+          "source": "NI",
+          "target": "SC"
+        },
+        {
+          "similarity": 0.14350946197048195,
+          "source": "NI",
+          "target": "SR"
+        },
+        {
+          "similarity": 0.3263284130202233,
+          "source": "SC",
+          "target": "SR"
+        }
+      ],
+      "targetPartition": "Code"
+    },
+    "pruning": {
+      "fixedActor": {
+        "alpha": 0.05,
+        "fixedPartition": "StudentId",
+        "significantEdges": [
+          {
+            "source": "Control::Student 1",
+            "target": "ATT",
+            "weight": 1
+          },
+          {
+            "source": "Control::Student 1",
+            "target": "EC",
+            "weight": 1
+          },
+          {
+            "source": "Control::Student 12",
+            "target": "EC",
+            "weight": 1
+          },
+          {
+            "source": "Control::Student 12",
+            "target": "SR",
+            "weight": 1
+          },
+          {
+            "source": "Control::Student 15",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 16",
+            "target": "MCO",
+            "weight": 1
+          },
+          {
+            "source": "Control::Student 19",
+            "target": "ICT",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 21",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 21",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 24",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 26",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 26",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 27",
+            "target": "ATT",
+            "weight": 1
+          },
+          {
+            "source": "Control::Student 27",
+            "target": "SC",
+            "weight": 1
+          },
+          {
+            "source": "Control::Student 28",
+            "target": "ATT",
+            "weight": 1
+          },
+          {
+            "source": "Control::Student 28",
+            "target": "SC",
+            "weight": 1
+          },
+          {
+            "source": "Control::Student 29",
+            "target": "SC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 3",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 3",
+            "target": "SR",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 32",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 34",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 34",
+            "target": "ICT",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 35",
+            "target": "ICT",
+            "weight": 1
+          },
+          {
+            "source": "Control::Student 37",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 39",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 4",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 40",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 41",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 41",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 8",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 9",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 1",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 10",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 13",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 14",
+            "target": "ICT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 14",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 17",
+            "target": "EC",
+            "weight": 1
+          },
+          {
+            "source": "Experimental::Student 17",
+            "target": "MCO",
+            "weight": 1
+          },
+          {
+            "source": "Experimental::Student 18",
+            "target": "EC",
+            "weight": 1
+          },
+          {
+            "source": "Experimental::Student 18",
+            "target": "ICT",
+            "weight": 1
+          },
+          {
+            "source": "Experimental::Student 19",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 2",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 21",
+            "target": "EC",
+            "weight": 1
+          },
+          {
+            "source": "Experimental::Student 21",
+            "target": "MCO",
+            "weight": 1
+          },
+          {
+            "source": "Experimental::Student 23",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 23",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 24",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 25",
+            "target": "ICT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 25",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 26",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 27",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 28",
+            "target": "ICT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 3",
+            "target": "ICT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 30",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 30",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 34",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 35",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 36",
+            "target": "ICT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 39",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 40",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 43",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 6",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 8",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 9",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 9",
+            "target": "ICT",
+            "weight": 2
+          }
+        ],
+        "thresholds": [
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 1",
+            "threshold": 1,
+            "trials": 2
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 10",
+            "threshold": 3,
+            "trials": 8
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 11",
+            "threshold": 2,
+            "trials": 3
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 12",
+            "threshold": 1,
+            "trials": 2
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 13",
+            "threshold": 3,
+            "trials": 9
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 14",
+            "threshold": 2,
+            "trials": 4
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 15",
+            "threshold": 2,
+            "trials": 4
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 16",
+            "threshold": 1,
+            "trials": 1
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 18",
+            "threshold": 2,
+            "trials": 3
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 19",
+            "threshold": 2,
+            "trials": 5
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 2",
+            "threshold": 3,
+            "trials": 7
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 20",
+            "threshold": 3,
+            "trials": 7
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 21",
+            "threshold": 2,
+            "trials": 5
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 22",
+            "threshold": 2,
+            "trials": 3
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 23",
+            "threshold": 2,
+            "trials": 3
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 24",
+            "threshold": 2,
+            "trials": 6
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 25",
+            "threshold": 2,
+            "trials": 5
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 26",
+            "threshold": 2,
+            "trials": 5
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 27",
+            "threshold": 1,
+            "trials": 2
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 28",
+            "threshold": 1,
+            "trials": 2
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 29",
+            "threshold": 2,
+            "trials": 5
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 3",
+            "threshold": 2,
+            "trials": 6
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 30",
+            "threshold": 2,
+            "trials": 5
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 31",
+            "threshold": 3,
+            "trials": 8
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 32",
+            "threshold": 2,
+            "trials": 4
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 33",
+            "threshold": 2,
+            "trials": 5
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 34",
+            "threshold": 2,
+            "trials": 4
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 35",
+            "threshold": 1,
+            "trials": 1
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 36",
+            "threshold": 3,
+            "trials": 7
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 37",
+            "threshold": 2,
+            "trials": 4
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 38",
+            "threshold": 3,
+            "trials": 7
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 39",
+            "threshold": 2,
+            "trials": 5
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 4",
+            "threshold": 2,
+            "trials": 6
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 40",
+            "threshold": 2,
+            "trials": 4
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 41",
+            "threshold": 2,
+            "trials": 4
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 42",
+            "threshold": 2,
+            "trials": 3
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 5",
+            "threshold": 3,
+            "trials": 7
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 6",
+            "threshold": 2,
+            "trials": 4
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 7",
+            "threshold": 3,
+            "trials": 7
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 8",
+            "threshold": 2,
+            "trials": 4
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Control::Student 9",
+            "threshold": 2,
+            "trials": 5
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 1",
+            "threshold": 2,
+            "trials": 4
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 10",
+            "threshold": 2,
+            "trials": 5
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 11",
+            "threshold": 2,
+            "trials": 3
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 12",
+            "threshold": 3,
+            "trials": 7
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 13",
+            "threshold": 2,
+            "trials": 5
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 14",
+            "threshold": 2,
+            "trials": 6
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 15",
+            "threshold": 2,
+            "trials": 6
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 16",
+            "threshold": 2,
+            "trials": 3
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 17",
+            "threshold": 1,
+            "trials": 2
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 18",
+            "threshold": 1,
+            "trials": 2
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 19",
+            "threshold": 2,
+            "trials": 4
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 2",
+            "threshold": 2,
+            "trials": 4
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 20",
+            "threshold": 2,
+            "trials": 4
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 21",
+            "threshold": 1,
+            "trials": 2
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 22",
+            "threshold": 2,
+            "trials": 3
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 23",
+            "threshold": 2,
+            "trials": 5
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 24",
+            "threshold": 2,
+            "trials": 3
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 25",
+            "threshold": 2,
+            "trials": 6
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 26",
+            "threshold": 2,
+            "trials": 6
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 27",
+            "threshold": 2,
+            "trials": 5
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 28",
+            "threshold": 2,
+            "trials": 5
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 29",
+            "threshold": 2,
+            "trials": 5
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 3",
+            "threshold": 2,
+            "trials": 4
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 30",
+            "threshold": 2,
+            "trials": 6
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 31",
+            "threshold": 2,
+            "trials": 5
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 32",
+            "threshold": 2,
+            "trials": 6
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 33",
+            "threshold": 2,
+            "trials": 5
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 34",
+            "threshold": 2,
+            "trials": 5
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 35",
+            "threshold": 2,
+            "trials": 6
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 36",
+            "threshold": 2,
+            "trials": 4
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 37",
+            "threshold": 2,
+            "trials": 3
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 38",
+            "threshold": 2,
+            "trials": 3
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 39",
+            "threshold": 2,
+            "trials": 5
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 4",
+            "threshold": 2,
+            "trials": 5
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 40",
+            "threshold": 2,
+            "trials": 6
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 41",
+            "threshold": 2,
+            "trials": 3
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 42",
+            "threshold": 2,
+            "trials": 4
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 43",
+            "threshold": 2,
+            "trials": 5
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 44",
+            "threshold": 2,
+            "trials": 4
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 45",
+            "threshold": 2,
+            "trials": 4
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 5",
+            "threshold": 3,
+            "trials": 7
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 6",
+            "threshold": 1,
+            "trials": 2
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 7",
+            "threshold": 2,
+            "trials": 4
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 8",
+            "threshold": 2,
+            "trials": 3
+          },
+          {
+            "probability": 0.14285714285714285,
+            "scope": "Experimental::Student 9",
+            "threshold": 2,
+            "trials": 6
+          }
+        ]
+      },
+      "global": {
+        "alpha": 0.05,
+        "fixedPartition": null,
+        "significantEdges": [
+          {
+            "source": "Control::Student 10",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 10",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 13",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 13",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 13",
+            "target": "SC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 15",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 19",
+            "target": "ICT",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 2",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 2",
+            "target": "SC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 20",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 20",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 21",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 21",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 24",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 26",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 26",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 29",
+            "target": "SC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 3",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 3",
+            "target": "SR",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 31",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 31",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 31",
+            "target": "SC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 32",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 34",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 34",
+            "target": "ICT",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 36",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 36",
+            "target": "SC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 37",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 38",
+            "target": "ICT",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 39",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 4",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 40",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 41",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 41",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 5",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 5",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 7",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 7",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 7",
+            "target": "SC",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 8",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Control::Student 9",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 1",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 10",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 12",
+            "target": "ICT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 12",
+            "target": "SC",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 13",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 14",
+            "target": "ICT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 14",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 19",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 2",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 23",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 23",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 24",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 25",
+            "target": "ICT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 25",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 26",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 27",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 28",
+            "target": "ICT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 3",
+            "target": "ICT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 30",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 30",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 34",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 35",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 36",
+            "target": "ICT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 39",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 40",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 43",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 5",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 5",
+            "target": "MCO",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 5",
+            "target": "SC",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 6",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 8",
+            "target": "EC",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 9",
+            "target": "ATT",
+            "weight": 2
+          },
+          {
+            "source": "Experimental::Student 9",
+            "target": "ICT",
+            "weight": 2
+          }
+        ],
+        "thresholds": [
+          {
+            "probability": 0.0016611295681063123,
+            "scope": "global",
+            "threshold": 2,
+            "trials": 391
+          }
+        ]
+      }
+    }
+  },
+  "dataset": {
+    "columns": [
+      "StudentId",
+      "Name",
+      "Group",
+      "Lesson",
+      "Code",
+      "Value"
+    ],
+    "rowCount": 391,
+    "sha256": "c92ca7fd40b3241bdb52186b6a498fa36a68a3cf5775627876df8cca28ad9263",
+    "source": "examples/data/yu-hina-long.csv",
+    "uniqueCodes": 7,
+    "uniqueLessons": 2,
+    "uniqueStudents": 86
+  },
+  "provenance": {
+    "dependencies": {
+      "networkx": "3.5",
+      "numpy": "2.3.3",
+      "pandas": "2.3.2",
+      "scipy": "1.16.1"
+    },
+    "generator": "scripts/python-oracle.py",
+    "pythonHashSeed": "0",
+    "pythonVersion": "3.11.16",
+    "upstreamCommit": "f7bb3df3609aa6b0b6d5c98108e940f662053bb5",
+    "upstreamFileSha256": {
+      "hina/construction/network_construct.py": "9c4a54eda8a420e7c1719454d760866116e4eb575709d370f4036882f0877b5a",
+      "hina/dyad/significant_edges.py": "ff83041eb964b5f30a60d6d11185cff99db28324ae563d888d7ad656ec7308c2",
+      "hina/individual/diversity.py": "b02c560b3417499a6ca526f87512c5d7a064594f78cfb488406ae4005222d7c0",
+      "hina/individual/quantity.py": "532c6c147f0ce7226fd2f56ffb0a154f0fbd8f09ae2e53ef3f68c00851ae88bd",
+      "hina/mesoscale/clustering.py": "13c681fefdc2c40f8c01883722eb51ab024d89fb58208100401219f5adc9a3f8"
+    },
+    "upstreamRepository": "https://github.com/SHF-NAILResearchGroup/HINA",
+    "upstreamVersion": "0.7.2"
+  },
+  "schemaVersion": 1,
+  "tripartite": {
+    "communities": {
+      "baselineDescriptionLength": 868.7167440742887,
+      "communityCount": 2,
+      "compressionRatio": 1.040174947971957,
+      "descriptionLength": 903.6173940698412,
+      "fixedCommunityCount": 2,
+      "objectProjections": [
+        {
+          "community": 0,
+          "edgeCount": 14,
+          "edges": [
+            {
+              "source": "ATT",
+              "target": "Lesson 1",
+              "weight": 45
+            },
+            {
+              "source": "ATT",
+              "target": "Lesson 2",
+              "weight": 36
+            },
+            {
+              "source": "EC",
+              "target": "Lesson 1",
+              "weight": 42
+            },
+            {
+              "source": "EC",
+              "target": "Lesson 2",
+              "weight": 46
+            },
+            {
+              "source": "ICT",
+              "target": "Lesson 1",
+              "weight": 20
+            },
+            {
+              "source": "ICT",
+              "target": "Lesson 2",
+              "weight": 37
+            },
+            {
+              "source": "Lesson 1",
+              "target": "MCO",
+              "weight": 33
+            },
+            {
+              "source": "Lesson 1",
+              "target": "NI",
+              "weight": 4
+            },
+            {
+              "source": "Lesson 1",
+              "target": "SC",
+              "weight": 29
+            },
+            {
+              "source": "Lesson 1",
+              "target": "SR",
+              "weight": 8
+            },
+            {
+              "source": "Lesson 2",
+              "target": "MCO",
+              "weight": 34
+            },
+            {
+              "source": "Lesson 2",
+              "target": "NI",
+              "weight": 14
+            },
+            {
+              "source": "Lesson 2",
+              "target": "SC",
+              "weight": 22
+            },
+            {
+              "source": "Lesson 2",
+              "target": "SR",
+              "weight": 12
+            }
+          ],
+          "nodeCount": 9,
+          "totalWeight": 382
+        },
+        {
+          "community": 1,
+          "edgeCount": 9,
+          "edges": [
+            {
+              "source": "ATT",
+              "target": "Lesson 1",
+              "weight": 1
+            },
+            {
+              "source": "EC",
+              "target": "Lesson 1",
+              "weight": 1
+            },
+            {
+              "source": "EC",
+              "target": "Lesson 2",
+              "weight": 1
+            },
+            {
+              "source": "Lesson 1",
+              "target": "MCO",
+              "weight": 1
+            },
+            {
+              "source": "Lesson 1",
+              "target": "SC",
+              "weight": 1
+            },
+            {
+              "source": "Lesson 2",
+              "target": "MCO",
+              "weight": 1
+            },
+            {
+              "source": "Lesson 2",
+              "target": "NI",
+              "weight": 1
+            },
+            {
+              "source": "Lesson 2",
+              "target": "SC",
+              "weight": 1
+            },
+            {
+              "source": "Lesson 2",
+              "target": "SR",
+              "weight": 1
+            }
+          ],
+          "nodeCount": 8,
+          "totalWeight": 9
+        }
+      ],
+      "partition": [
+        [
+          "Control::Student 1",
+          "Control::Student 10",
+          "Control::Student 11",
+          "Control::Student 12",
+          "Control::Student 14",
+          "Control::Student 15",
+          "Control::Student 16",
+          "Control::Student 18",
+          "Control::Student 19",
+          "Control::Student 2",
+          "Control::Student 20",
+          "Control::Student 21",
+          "Control::Student 22",
+          "Control::Student 23",
+          "Control::Student 24",
+          "Control::Student 25",
+          "Control::Student 26",
+          "Control::Student 27",
+          "Control::Student 28",
+          "Control::Student 29",
+          "Control::Student 3",
+          "Control::Student 30",
+          "Control::Student 31",
+          "Control::Student 32",
+          "Control::Student 33",
+          "Control::Student 34",
+          "Control::Student 35",
+          "Control::Student 36",
+          "Control::Student 37",
+          "Control::Student 38",
+          "Control::Student 39",
+          "Control::Student 4",
+          "Control::Student 40",
+          "Control::Student 41",
+          "Control::Student 42",
+          "Control::Student 5",
+          "Control::Student 6",
+          "Control::Student 7",
+          "Control::Student 8",
+          "Control::Student 9",
+          "Experimental::Student 1",
+          "Experimental::Student 10",
+          "Experimental::Student 11",
+          "Experimental::Student 12",
+          "Experimental::Student 13",
+          "Experimental::Student 14",
+          "Experimental::Student 15",
+          "Experimental::Student 16",
+          "Experimental::Student 17",
+          "Experimental::Student 18",
+          "Experimental::Student 19",
+          "Experimental::Student 2",
+          "Experimental::Student 20",
+          "Experimental::Student 21",
+          "Experimental::Student 22",
+          "Experimental::Student 23",
+          "Experimental::Student 24",
+          "Experimental::Student 25",
+          "Experimental::Student 26",
+          "Experimental::Student 27",
+          "Experimental::Student 28",
+          "Experimental::Student 29",
+          "Experimental::Student 3",
+          "Experimental::Student 30",
+          "Experimental::Student 31",
+          "Experimental::Student 32",
+          "Experimental::Student 33",
+          "Experimental::Student 34",
+          "Experimental::Student 35",
+          "Experimental::Student 36",
+          "Experimental::Student 37",
+          "Experimental::Student 38",
+          "Experimental::Student 39",
+          "Experimental::Student 4",
+          "Experimental::Student 40",
+          "Experimental::Student 41",
+          "Experimental::Student 42",
+          "Experimental::Student 43",
+          "Experimental::Student 44",
+          "Experimental::Student 45",
+          "Experimental::Student 5",
+          "Experimental::Student 6",
+          "Experimental::Student 7",
+          "Experimental::Student 8",
+          "Experimental::Student 9"
+        ],
+        [
+          "Control::Student 13"
+        ]
+      ]
+    },
+    "graph": {
+      "actorCount": 86,
+      "actors": [
+        "Control::Student 1",
+        "Control::Student 10",
+        "Control::Student 11",
+        "Control::Student 12",
+        "Control::Student 13",
+        "Control::Student 14",
+        "Control::Student 15",
+        "Control::Student 16",
+        "Control::Student 18",
+        "Control::Student 19",
+        "Control::Student 2",
+        "Control::Student 20",
+        "Control::Student 21",
+        "Control::Student 22",
+        "Control::Student 23",
+        "Control::Student 24",
+        "Control::Student 25",
+        "Control::Student 26",
+        "Control::Student 27",
+        "Control::Student 28",
+        "Control::Student 29",
+        "Control::Student 3",
+        "Control::Student 30",
+        "Control::Student 31",
+        "Control::Student 32",
+        "Control::Student 33",
+        "Control::Student 34",
+        "Control::Student 35",
+        "Control::Student 36",
+        "Control::Student 37",
+        "Control::Student 38",
+        "Control::Student 39",
+        "Control::Student 4",
+        "Control::Student 40",
+        "Control::Student 41",
+        "Control::Student 42",
+        "Control::Student 5",
+        "Control::Student 6",
+        "Control::Student 7",
+        "Control::Student 8",
+        "Control::Student 9",
+        "Experimental::Student 1",
+        "Experimental::Student 10",
+        "Experimental::Student 11",
+        "Experimental::Student 12",
+        "Experimental::Student 13",
+        "Experimental::Student 14",
+        "Experimental::Student 15",
+        "Experimental::Student 16",
+        "Experimental::Student 17",
+        "Experimental::Student 18",
+        "Experimental::Student 19",
+        "Experimental::Student 2",
+        "Experimental::Student 20",
+        "Experimental::Student 21",
+        "Experimental::Student 22",
+        "Experimental::Student 23",
+        "Experimental::Student 24",
+        "Experimental::Student 25",
+        "Experimental::Student 26",
+        "Experimental::Student 27",
+        "Experimental::Student 28",
+        "Experimental::Student 29",
+        "Experimental::Student 3",
+        "Experimental::Student 30",
+        "Experimental::Student 31",
+        "Experimental::Student 32",
+        "Experimental::Student 33",
+        "Experimental::Student 34",
+        "Experimental::Student 35",
+        "Experimental::Student 36",
+        "Experimental::Student 37",
+        "Experimental::Student 38",
+        "Experimental::Student 39",
+        "Experimental::Student 4",
+        "Experimental::Student 40",
+        "Experimental::Student 41",
+        "Experimental::Student 42",
+        "Experimental::Student 43",
+        "Experimental::Student 44",
+        "Experimental::Student 45",
+        "Experimental::Student 5",
+        "Experimental::Student 6",
+        "Experimental::Student 7",
+        "Experimental::Student 8",
+        "Experimental::Student 9"
+      ],
+      "edgeCount": 391,
+      "edges": [
+        {
+          "source": "Control::Student 1",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 1",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 10",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 10",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 10",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 10",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 10",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 10",
+          "target": "NI**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 10",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 10",
+          "target": "SR**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 11",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 11",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 11",
+          "target": "NI**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 12",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 12",
+          "target": "SR**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 13",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 13",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 13",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 13",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 13",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 13",
+          "target": "NI**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 13",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 13",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 13",
+          "target": "SR**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 14",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 14",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 14",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 14",
+          "target": "SR**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 15",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 15",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 15",
+          "target": "NI**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 15",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 16",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 18",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 18",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 18",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 19",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 19",
+          "target": "ICT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 19",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 19",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 19",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 2",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 2",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 2",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 2",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 2",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 2",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 2",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 20",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 20",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 20",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 20",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 20",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 20",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 20",
+          "target": "SR**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 21",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 21",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 21",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 21",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 21",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 22",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 22",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 22",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 23",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 23",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 23",
+          "target": "SR**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 24",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 24",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 24",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 24",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 24",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 24",
+          "target": "SR**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 25",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 25",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 25",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 25",
+          "target": "NI**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 25",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 26",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 26",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 26",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 26",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 26",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 27",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 27",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 28",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 28",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 29",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 29",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 29",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 29",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 29",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 3",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 3",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 3",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 3",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 3",
+          "target": "SR**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 3",
+          "target": "SR**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 30",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 30",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 30",
+          "target": "ICT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 30",
+          "target": "NI**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 30",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 31",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 31",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 31",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 31",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 31",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 31",
+          "target": "NI**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 31",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 31",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 32",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 32",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 32",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 32",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 33",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 33",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 33",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 33",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 33",
+          "target": "SR**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 34",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 34",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 34",
+          "target": "ICT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 34",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 35",
+          "target": "ICT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 36",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 36",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 36",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 36",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 36",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 36",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 36",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 37",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 37",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 37",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 37",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 38",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 38",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 38",
+          "target": "ICT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 38",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 38",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 38",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 38",
+          "target": "SR**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 39",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 39",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 39",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 39",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 39",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 4",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 4",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 4",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 4",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 4",
+          "target": "NI**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 4",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 40",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 40",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 40",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 40",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 41",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 41",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 41",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 41",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 42",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 42",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 42",
+          "target": "NI**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 5",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 5",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 5",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 5",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 5",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 5",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 5",
+          "target": "NI**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 6",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 6",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 6",
+          "target": "NI**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 6",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 7",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 7",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 7",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 7",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 7",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 7",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 7",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 8",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 8",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 8",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 8",
+          "target": "NI**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 9",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 9",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 9",
+          "target": "ICT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 9",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Control::Student 9",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 1",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 1",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 1",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 1",
+          "target": "ICT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 10",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 10",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 10",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 10",
+          "target": "ICT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 10",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 11",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 11",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 11",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 12",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 12",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 12",
+          "target": "ICT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 12",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 12",
+          "target": "NI**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 12",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 12",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 13",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 13",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 13",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 13",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 13",
+          "target": "SR**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 14",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 14",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 14",
+          "target": "ICT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 14",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 14",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 14",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 15",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 15",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 15",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 15",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 15",
+          "target": "NI**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 15",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 16",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 16",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 16",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 17",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 17",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 18",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 18",
+          "target": "ICT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 19",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 19",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 19",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 19",
+          "target": "SR**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 2",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 2",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 2",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 2",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 20",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 20",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 20",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 20",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 21",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 21",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 22",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 22",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 22",
+          "target": "NI**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 23",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 23",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 23",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 23",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 23",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 24",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 24",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 24",
+          "target": "NI**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 25",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 25",
+          "target": "ICT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 25",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 25",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 25",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 25",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 26",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 26",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 26",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 26",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 26",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 26",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 27",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 27",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 27",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 27",
+          "target": "NI**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 27",
+          "target": "SR**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 28",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 28",
+          "target": "ICT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 28",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 28",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 28",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 29",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 29",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 29",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 29",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 29",
+          "target": "SR**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 3",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 3",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 3",
+          "target": "ICT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 3",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 30",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 30",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 30",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 30",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 30",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 30",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 31",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 31",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 31",
+          "target": "ICT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 31",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 31",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 32",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 32",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 32",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 32",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 32",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 32",
+          "target": "SR**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 33",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 33",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 33",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 33",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 33",
+          "target": "SR**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 34",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 34",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 34",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 34",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 34",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 35",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 35",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 35",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 35",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 35",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 35",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 36",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 36",
+          "target": "ICT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 36",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 36",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 37",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 37",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 37",
+          "target": "SR**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 38",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 38",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 38",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 39",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 39",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 39",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 39",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 39",
+          "target": "SR**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 4",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 4",
+          "target": "ICT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 4",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 4",
+          "target": "NI**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 4",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 40",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 40",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 40",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 40",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 40",
+          "target": "NI**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 40",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 41",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 41",
+          "target": "ICT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 41",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 42",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 42",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 42",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 42",
+          "target": "SR**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 43",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 43",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 43",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 43",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 43",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 44",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 44",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 44",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 44",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 45",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 45",
+          "target": "ICT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 45",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 45",
+          "target": "SR**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 5",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 5",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 5",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 5",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 5",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 5",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 5",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 6",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 6",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 7",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 7",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 7",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 7",
+          "target": "SC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 8",
+          "target": "EC**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 8",
+          "target": "EC**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 8",
+          "target": "MCO**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 9",
+          "target": "ATT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 9",
+          "target": "ATT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 9",
+          "target": "ICT**Lesson 1",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 9",
+          "target": "ICT**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 9",
+          "target": "MCO**Lesson 2",
+          "weight": 1
+        },
+        {
+          "source": "Experimental::Student 9",
+          "target": "SC**Lesson 1",
+          "weight": 1
+        }
+      ],
+      "nodeCount": 100,
+      "objectCount": 14,
+      "objects": [
+        "ATT**Lesson 1",
+        "ATT**Lesson 2",
+        "EC**Lesson 1",
+        "EC**Lesson 2",
+        "ICT**Lesson 1",
+        "ICT**Lesson 2",
+        "MCO**Lesson 1",
+        "MCO**Lesson 2",
+        "NI**Lesson 1",
+        "NI**Lesson 2",
+        "SC**Lesson 1",
+        "SC**Lesson 2",
+        "SR**Lesson 1",
+        "SR**Lesson 2"
+      ],
+      "totalWeight": 391
+    },
+    "individual": {
+      "categoryCount": 14,
+      "rows": [
+        {
+          "actor": "Control::Student 1",
+          "diversity": 0.26264953503719357,
+          "normalizedQuantity": 0.005115089514066497,
+          "normalizedQuantityByGroup": 0.010471204188481676,
+          "quantity": 2
+        },
+        {
+          "actor": "Control::Student 10",
+          "diversity": 0.7879486051115806,
+          "normalizedQuantity": 0.020460358056265986,
+          "normalizedQuantityByGroup": 0.041884816753926704,
+          "quantity": 8
+        },
+        {
+          "actor": "Control::Student 11",
+          "diversity": 0.4162896638657992,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015706806282722512,
+          "quantity": 3
+        },
+        {
+          "actor": "Control::Student 12",
+          "diversity": 0.26264953503719357,
+          "normalizedQuantity": 0.005115089514066497,
+          "normalizedQuantityByGroup": 0.010471204188481676,
+          "quantity": 2
+        },
+        {
+          "actor": "Control::Student 13",
+          "diversity": 0.8325793277315986,
+          "normalizedQuantity": 0.023017902813299233,
+          "normalizedQuantityByGroup": 0.04712041884816754,
+          "quantity": 9
+        },
+        {
+          "actor": "Control::Student 14",
+          "diversity": 0.5252990700743871,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.020942408376963352,
+          "quantity": 4
+        },
+        {
+          "actor": "Control::Student 15",
+          "diversity": 0.5252990700743871,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.020942408376963352,
+          "quantity": 4
+        },
+        {
+          "actor": "Control::Student 16",
+          "diversity": 0,
+          "normalizedQuantity": 0.0025575447570332483,
+          "normalizedQuantityByGroup": 0.005235602094240838,
+          "quantity": 1
+        },
+        {
+          "actor": "Control::Student 18",
+          "diversity": 0.4162896638657992,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015706806282722512,
+          "quantity": 3
+        },
+        {
+          "actor": "Control::Student 19",
+          "diversity": 0.6098533345119624,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.02617801047120419,
+          "quantity": 5
+        },
+        {
+          "actor": "Control::Student 2",
+          "diversity": 0.7373504649628064,
+          "normalizedQuantity": 0.01790281329923274,
+          "normalizedQuantityByGroup": 0.03664921465968586,
+          "quantity": 7
+        },
+        {
+          "actor": "Control::Student 20",
+          "diversity": 0.7373504649628064,
+          "normalizedQuantity": 0.01790281329923274,
+          "normalizedQuantityByGroup": 0.03664921465968586,
+          "quantity": 7
+        },
+        {
+          "actor": "Control::Student 21",
+          "diversity": 0.6098533345119624,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.02617801047120419,
+          "quantity": 5
+        },
+        {
+          "actor": "Control::Student 22",
+          "diversity": 0.4162896638657992,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015706806282722512,
+          "quantity": 3
+        },
+        {
+          "actor": "Control::Student 23",
+          "diversity": 0.4162896638657992,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015706806282722512,
+          "quantity": 3
+        },
+        {
+          "actor": "Control::Student 24",
+          "diversity": 0.6789391989029927,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.031413612565445025,
+          "quantity": 6
+        },
+        {
+          "actor": "Control::Student 25",
+          "diversity": 0.6098533345119624,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.02617801047120419,
+          "quantity": 5
+        },
+        {
+          "actor": "Control::Student 26",
+          "diversity": 0.6098533345119624,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.02617801047120419,
+          "quantity": 5
+        },
+        {
+          "actor": "Control::Student 27",
+          "diversity": 0.26264953503719357,
+          "normalizedQuantity": 0.005115089514066497,
+          "normalizedQuantityByGroup": 0.010471204188481676,
+          "quantity": 2
+        },
+        {
+          "actor": "Control::Student 28",
+          "diversity": 0.26264953503719357,
+          "normalizedQuantity": 0.005115089514066497,
+          "normalizedQuantityByGroup": 0.010471204188481676,
+          "quantity": 2
+        },
+        {
+          "actor": "Control::Student 29",
+          "diversity": 0.6098533345119624,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.02617801047120419,
+          "quantity": 5
+        },
+        {
+          "actor": "Control::Student 3",
+          "diversity": 0.6789391989029927,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.031413612565445025,
+          "quantity": 6
+        },
+        {
+          "actor": "Control::Student 30",
+          "diversity": 0.6098533345119624,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.02617801047120419,
+          "quantity": 5
+        },
+        {
+          "actor": "Control::Student 31",
+          "diversity": 0.7879486051115806,
+          "normalizedQuantity": 0.020460358056265986,
+          "normalizedQuantityByGroup": 0.041884816753926704,
+          "quantity": 8
+        },
+        {
+          "actor": "Control::Student 32",
+          "diversity": 0.5252990700743871,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.020942408376963352,
+          "quantity": 4
+        },
+        {
+          "actor": "Control::Student 33",
+          "diversity": 0.6098533345119624,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.02617801047120419,
+          "quantity": 5
+        },
+        {
+          "actor": "Control::Student 34",
+          "diversity": 0.5252990700743871,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.020942408376963352,
+          "quantity": 4
+        },
+        {
+          "actor": "Control::Student 35",
+          "diversity": 0,
+          "normalizedQuantity": 0.0025575447570332483,
+          "normalizedQuantityByGroup": 0.005235602094240838,
+          "quantity": 1
+        },
+        {
+          "actor": "Control::Student 36",
+          "diversity": 0.7373504649628064,
+          "normalizedQuantity": 0.01790281329923274,
+          "normalizedQuantityByGroup": 0.03664921465968586,
+          "quantity": 7
+        },
+        {
+          "actor": "Control::Student 37",
+          "diversity": 0.5252990700743871,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.020942408376963352,
+          "quantity": 4
+        },
+        {
+          "actor": "Control::Student 38",
+          "diversity": 0.7373504649628064,
+          "normalizedQuantity": 0.01790281329923274,
+          "normalizedQuantityByGroup": 0.03664921465968586,
+          "quantity": 7
+        },
+        {
+          "actor": "Control::Student 39",
+          "diversity": 0.6098533345119624,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.02617801047120419,
+          "quantity": 5
+        },
+        {
+          "actor": "Control::Student 4",
+          "diversity": 0.6789391989029927,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.031413612565445025,
+          "quantity": 6
+        },
+        {
+          "actor": "Control::Student 40",
+          "diversity": 0.5252990700743871,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.020942408376963352,
+          "quantity": 4
+        },
+        {
+          "actor": "Control::Student 41",
+          "diversity": 0.5252990700743871,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.020942408376963352,
+          "quantity": 4
+        },
+        {
+          "actor": "Control::Student 42",
+          "diversity": 0.4162896638657992,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015706806282722512,
+          "quantity": 3
+        },
+        {
+          "actor": "Control::Student 5",
+          "diversity": 0.7373504649628064,
+          "normalizedQuantity": 0.01790281329923274,
+          "normalizedQuantityByGroup": 0.03664921465968586,
+          "quantity": 7
+        },
+        {
+          "actor": "Control::Student 6",
+          "diversity": 0.5252990700743871,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.020942408376963352,
+          "quantity": 4
+        },
+        {
+          "actor": "Control::Student 7",
+          "diversity": 0.7373504649628064,
+          "normalizedQuantity": 0.01790281329923274,
+          "normalizedQuantityByGroup": 0.03664921465968586,
+          "quantity": 7
+        },
+        {
+          "actor": "Control::Student 8",
+          "diversity": 0.5252990700743871,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.020942408376963352,
+          "quantity": 4
+        },
+        {
+          "actor": "Control::Student 9",
+          "diversity": 0.6098533345119624,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.02617801047120419,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 1",
+          "diversity": 0.5252990700743871,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.02,
+          "quantity": 4
+        },
+        {
+          "actor": "Experimental::Student 10",
+          "diversity": 0.6098533345119624,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 11",
+          "diversity": 0.4162896638657992,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015,
+          "quantity": 3
+        },
+        {
+          "actor": "Experimental::Student 12",
+          "diversity": 0.7373504649628064,
+          "normalizedQuantity": 0.01790281329923274,
+          "normalizedQuantityByGroup": 0.035,
+          "quantity": 7
+        },
+        {
+          "actor": "Experimental::Student 13",
+          "diversity": 0.6098533345119624,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 14",
+          "diversity": 0.6789391989029927,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.03,
+          "quantity": 6
+        },
+        {
+          "actor": "Experimental::Student 15",
+          "diversity": 0.6789391989029927,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.03,
+          "quantity": 6
+        },
+        {
+          "actor": "Experimental::Student 16",
+          "diversity": 0.4162896638657992,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015,
+          "quantity": 3
+        },
+        {
+          "actor": "Experimental::Student 17",
+          "diversity": 0.26264953503719357,
+          "normalizedQuantity": 0.005115089514066497,
+          "normalizedQuantityByGroup": 0.01,
+          "quantity": 2
+        },
+        {
+          "actor": "Experimental::Student 18",
+          "diversity": 0.26264953503719357,
+          "normalizedQuantity": 0.005115089514066497,
+          "normalizedQuantityByGroup": 0.01,
+          "quantity": 2
+        },
+        {
+          "actor": "Experimental::Student 19",
+          "diversity": 0.5252990700743871,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.02,
+          "quantity": 4
+        },
+        {
+          "actor": "Experimental::Student 2",
+          "diversity": 0.5252990700743871,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.02,
+          "quantity": 4
+        },
+        {
+          "actor": "Experimental::Student 20",
+          "diversity": 0.5252990700743871,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.02,
+          "quantity": 4
+        },
+        {
+          "actor": "Experimental::Student 21",
+          "diversity": 0.26264953503719357,
+          "normalizedQuantity": 0.005115089514066497,
+          "normalizedQuantityByGroup": 0.01,
+          "quantity": 2
+        },
+        {
+          "actor": "Experimental::Student 22",
+          "diversity": 0.4162896638657992,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015,
+          "quantity": 3
+        },
+        {
+          "actor": "Experimental::Student 23",
+          "diversity": 0.6098533345119624,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 24",
+          "diversity": 0.4162896638657992,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015,
+          "quantity": 3
+        },
+        {
+          "actor": "Experimental::Student 25",
+          "diversity": 0.6789391989029927,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.03,
+          "quantity": 6
+        },
+        {
+          "actor": "Experimental::Student 26",
+          "diversity": 0.6789391989029927,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.03,
+          "quantity": 6
+        },
+        {
+          "actor": "Experimental::Student 27",
+          "diversity": 0.6098533345119624,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 28",
+          "diversity": 0.6098533345119624,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 29",
+          "diversity": 0.6098533345119624,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 3",
+          "diversity": 0.5252990700743871,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.02,
+          "quantity": 4
+        },
+        {
+          "actor": "Experimental::Student 30",
+          "diversity": 0.6789391989029927,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.03,
+          "quantity": 6
+        },
+        {
+          "actor": "Experimental::Student 31",
+          "diversity": 0.6098533345119624,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 32",
+          "diversity": 0.6789391989029927,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.03,
+          "quantity": 6
+        },
+        {
+          "actor": "Experimental::Student 33",
+          "diversity": 0.6098533345119624,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 34",
+          "diversity": 0.6098533345119624,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 35",
+          "diversity": 0.6789391989029927,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.03,
+          "quantity": 6
+        },
+        {
+          "actor": "Experimental::Student 36",
+          "diversity": 0.5252990700743871,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.02,
+          "quantity": 4
+        },
+        {
+          "actor": "Experimental::Student 37",
+          "diversity": 0.4162896638657992,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015,
+          "quantity": 3
+        },
+        {
+          "actor": "Experimental::Student 38",
+          "diversity": 0.4162896638657992,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015,
+          "quantity": 3
+        },
+        {
+          "actor": "Experimental::Student 39",
+          "diversity": 0.6098533345119624,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 4",
+          "diversity": 0.6098533345119624,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 40",
+          "diversity": 0.6789391989029927,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.03,
+          "quantity": 6
+        },
+        {
+          "actor": "Experimental::Student 41",
+          "diversity": 0.4162896638657992,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015,
+          "quantity": 3
+        },
+        {
+          "actor": "Experimental::Student 42",
+          "diversity": 0.5252990700743871,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.02,
+          "quantity": 4
+        },
+        {
+          "actor": "Experimental::Student 43",
+          "diversity": 0.6098533345119624,
+          "normalizedQuantity": 0.012787723785166242,
+          "normalizedQuantityByGroup": 0.025,
+          "quantity": 5
+        },
+        {
+          "actor": "Experimental::Student 44",
+          "diversity": 0.5252990700743871,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.02,
+          "quantity": 4
+        },
+        {
+          "actor": "Experimental::Student 45",
+          "diversity": 0.5252990700743871,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.02,
+          "quantity": 4
+        },
+        {
+          "actor": "Experimental::Student 5",
+          "diversity": 0.7373504649628064,
+          "normalizedQuantity": 0.01790281329923274,
+          "normalizedQuantityByGroup": 0.035,
+          "quantity": 7
+        },
+        {
+          "actor": "Experimental::Student 6",
+          "diversity": 0.26264953503719357,
+          "normalizedQuantity": 0.005115089514066497,
+          "normalizedQuantityByGroup": 0.01,
+          "quantity": 2
+        },
+        {
+          "actor": "Experimental::Student 7",
+          "diversity": 0.5252990700743871,
+          "normalizedQuantity": 0.010230179028132993,
+          "normalizedQuantityByGroup": 0.02,
+          "quantity": 4
+        },
+        {
+          "actor": "Experimental::Student 8",
+          "diversity": 0.4162896638657992,
+          "normalizedQuantity": 0.0076726342710997444,
+          "normalizedQuantityByGroup": 0.015,
+          "quantity": 3
+        },
+        {
+          "actor": "Experimental::Student 9",
+          "diversity": 0.6789391989029927,
+          "normalizedQuantity": 0.01534526854219949,
+          "normalizedQuantityByGroup": 0.03,
+          "quantity": 6
+        }
+      ]
+    }
+  }
+}

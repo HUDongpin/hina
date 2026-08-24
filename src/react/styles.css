@@ -1,0 +1,389 @@
+:root {
+  --hina-font: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --hina-background: #f8fafc;
+  --hina-surface: #ffffff;
+  --hina-surface-muted: #f1f5f9;
+  --hina-foreground: #0f172a;
+  --hina-muted: #475569;
+  --hina-border: #cbd5e1;
+  --hina-focus: #0ea5e9;
+  --hina-accent: #0f766e;
+  --hina-accent-contrast: #ffffff;
+  --hina-danger: #b91c1c;
+  --hina-danger-bg: #fef2f2;
+  --hina-actor-color: #2563eb;
+  --hina-object-color: #d97706;
+  --hina-composite-color: #7c3aed;
+  --hina-edge-color: #94a3b8;
+  --hina-radius: 0.75rem;
+}
+
+.hina-workbench,
+.hina-workbench * {
+  box-sizing: border-box;
+}
+
+.hina-workbench {
+  color: var(--hina-foreground);
+  background: var(--hina-background);
+  border: 1px solid var(--hina-border);
+  border-radius: var(--hina-radius);
+  font-family: var(--hina-font);
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+.hina-workbench button,
+.hina-workbench input,
+.hina-workbench select {
+  font: inherit;
+}
+
+.hina-workbench button:focus-visible,
+.hina-workbench input:focus-visible,
+.hina-workbench select:focus-visible,
+.hina-workbench summary:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--hina-focus) 55%, transparent);
+  outline-offset: 2px;
+}
+
+.hina-workbench__header {
+  align-items: center;
+  background: var(--hina-surface);
+  border-bottom: 1px solid var(--hina-border);
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+}
+
+.hina-workbench__header h2,
+.hina-workbench__header p {
+  margin: 0;
+}
+
+.hina-workbench__header h2 {
+  font-size: clamp(1.35rem, 2vw, 1.8rem);
+}
+
+.hina-workbench__header p:not(.hina-eyebrow) {
+  color: var(--hina-muted);
+  margin-top: 0.2rem;
+  max-width: 55rem;
+}
+
+.hina-eyebrow {
+  color: var(--hina-accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hina-file-button,
+.hina-output__filters button,
+.hina-network__toolbar button,
+.hina-results__tabs button {
+  align-items: center;
+  background: var(--hina-surface);
+  border: 1px solid var(--hina-border);
+  border-radius: 0.45rem;
+  color: var(--hina-foreground);
+  cursor: pointer;
+  display: inline-flex;
+  min-height: 2.75rem;
+  padding: 0.45rem 0.75rem;
+}
+
+.hina-file-button,
+.hina-run {
+  background: var(--hina-accent);
+  border-color: var(--hina-accent);
+  color: var(--hina-accent-contrast);
+  font-weight: 700;
+}
+
+.hina-sheet-picker {
+  align-items: center;
+  background: var(--hina-surface-muted);
+  border-bottom: 1px solid var(--hina-border);
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.7rem 1.5rem;
+}
+
+.hina-workbench__grid {
+  display: grid;
+  grid-template-columns: minmax(16rem, 21rem) minmax(0, 1fr);
+  min-height: 42rem;
+}
+
+.hina-controls {
+  background: var(--hina-surface);
+  border-right: 1px solid var(--hina-border);
+  padding: 1rem;
+}
+
+.hina-controls fieldset {
+  border: 0;
+  border-bottom: 1px solid var(--hina-border);
+  margin: 0 0 1rem;
+  padding: 0 0 1rem;
+}
+
+.hina-controls legend {
+  font-weight: 750;
+  margin-bottom: 0.65rem;
+  padding: 0;
+}
+
+.hina-controls label,
+.hina-output__filters label,
+.hina-sheet-picker {
+  color: var(--hina-muted);
+  font-size: 0.86rem;
+}
+
+.hina-controls label:not(.hina-check) {
+  display: grid;
+  gap: 0.25rem;
+  margin-bottom: 0.65rem;
+}
+
+.hina-controls input[type="number"],
+.hina-controls select,
+.hina-output__filters select,
+.hina-sheet-picker select {
+  background: var(--hina-surface);
+  border: 1px solid var(--hina-border);
+  border-radius: 0.4rem;
+  color: var(--hina-foreground);
+  min-height: 2.75rem;
+  padding: 0.35rem 0.5rem;
+  width: 100%;
+}
+
+.hina-check {
+  align-items: center;
+  color: var(--hina-foreground) !important;
+  display: flex;
+  gap: 0.55rem;
+  margin: 0.55rem 0;
+}
+
+.hina-check input {
+  height: 1rem;
+  margin: 0;
+  width: 1rem;
+}
+
+.hina-run {
+  border: 0;
+  border-radius: 0.45rem;
+  cursor: pointer;
+  min-height: 2.65rem;
+  padding: 0.55rem 0.9rem;
+  width: 100%;
+}
+
+.hina-run:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.hina-status {
+  color: var(--hina-muted);
+  font-size: 0.8rem;
+  margin: 0.75rem 0;
+}
+
+.hina-error {
+  background: var(--hina-danger-bg);
+  border: 1px solid color-mix(in srgb, var(--hina-danger) 35%, transparent);
+  border-radius: 0.45rem;
+  color: var(--hina-danger);
+  padding: 0.7rem;
+}
+
+.hina-error p {
+  margin: 0.2rem 0 0;
+}
+
+.hina-output {
+  min-width: 0;
+  padding: 1rem;
+}
+
+.hina-placeholder {
+  align-items: center;
+  border: 1px dashed var(--hina-border);
+  border-radius: var(--hina-radius);
+  color: var(--hina-muted);
+  display: flex;
+  justify-content: center;
+  min-height: 36rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hina-output__filters,
+.hina-network__toolbar {
+  align-items: end;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.65rem;
+}
+
+.hina-output__filters label {
+  display: grid;
+  gap: 0.2rem;
+  min-width: 9rem;
+}
+
+.hina-network {
+  --hina-canvas-height: 34rem;
+  background: var(--hina-surface);
+  border: 1px solid var(--hina-border);
+  border-radius: var(--hina-radius);
+  padding: 0.75rem;
+}
+
+.hina-network__canvas {
+  background: radial-gradient(circle at center, var(--hina-surface) 0, var(--hina-surface-muted) 100%);
+  border-radius: 0.5rem;
+  height: var(--hina-canvas-height);
+  min-height: 22rem;
+  width: 100%;
+}
+
+.hina-network__summary {
+  color: var(--hina-muted);
+  font-size: 0.8rem;
+  margin: 0.5rem 0 0;
+}
+
+.hina-network__accessible-list,
+.hina-diagnostics {
+  border-top: 1px solid var(--hina-border);
+  margin-top: 0.75rem;
+  padding-top: 0.65rem;
+}
+
+.hina-network__accessible-list summary,
+.hina-diagnostics summary {
+  cursor: pointer;
+  font-weight: 650;
+}
+
+.hina-results {
+  background: var(--hina-surface);
+  border: 1px solid var(--hina-border);
+  border-radius: var(--hina-radius);
+  margin-top: 1rem;
+  overflow: hidden;
+}
+
+.hina-results__tabs {
+  background: var(--hina-surface-muted);
+  border-bottom: 1px solid var(--hina-border);
+  display: flex;
+  gap: 0.25rem;
+  overflow-x: auto;
+  padding: 0.55rem;
+}
+
+.hina-results__tabs button {
+  flex: 0 0 auto;
+  font-size: 0.82rem;
+}
+
+.hina-results__tabs button.is-active {
+  background: var(--hina-accent);
+  border-color: var(--hina-accent);
+  color: var(--hina-accent-contrast);
+}
+
+.hina-results__panel {
+  padding: 0.75rem;
+}
+
+.hina-table-wrap {
+  max-height: 25rem;
+  overflow: auto;
+}
+
+.hina-table {
+  border-collapse: collapse;
+  font-size: 0.84rem;
+  width: 100%;
+}
+
+.hina-table caption {
+  font-weight: 750;
+  padding: 0 0 0.6rem;
+  text-align: left;
+}
+
+.hina-table th,
+.hina-table td {
+  border-bottom: 1px solid var(--hina-border);
+  padding: 0.48rem 0.55rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.hina-table th {
+  background: var(--hina-surface-muted);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.hina-empty {
+  color: var(--hina-muted);
+  margin: 0;
+  padding: 1rem;
+}
+
+.hina-sr-only {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  white-space: nowrap !important;
+  width: 1px !important;
+}
+
+@media (max-width: 900px) {
+  .hina-workbench__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hina-controls {
+    border-bottom: 1px solid var(--hina-border);
+    border-right: 0;
+  }
+
+  .hina-workbench__header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .hina-network {
+    --hina-canvas-height: 28rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hina-workbench *,
+  .hina-workbench *::before,
+  .hina-workbench *::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+}

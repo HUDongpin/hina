@@ -1,0 +1,8 @@
+src/
+tests/
+scripts/
+examples/next-app/
+.github/
+*.config.*
+tsconfig.json
+output/

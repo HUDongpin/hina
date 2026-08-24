@@ -1,0 +1,203 @@
+{
+  "name": "hina-js",
+  "version": "0.1.0",
+  "description": "A deterministic, JSON-safe TypeScript port of HINA for browsers, Node.js, Edge runtimes, React, and Next.js.",
+  "keywords": [
+    "hina",
+    "network-analysis",
+    "epistemic-network-analysis",
+    "bipartite",
+    "community-detection",
+    "nextjs",
+    "typescript"
+  ],
+  "license": "MIT",
+  "author": "HUDongpin contributors",
+  "homepage": "https://github.com/HUDongpin/hina#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HUDongpin/hina.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HUDongpin/hina/issues"
+  },
+  "type": "module",
+  "packageManager": "npm@11.16.0",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./construction": {
+      "import": {
+        "types": "./dist/construction.d.ts",
+        "default": "./dist/construction.js"
+      },
+      "require": {
+        "types": "./dist/construction.d.cts",
+        "default": "./dist/construction.cjs"
+      }
+    },
+    "./individual": {
+      "import": {
+        "types": "./dist/individual.d.ts",
+        "default": "./dist/individual.js"
+      },
+      "require": {
+        "types": "./dist/individual.d.cts",
+        "default": "./dist/individual.cjs"
+      }
+    },
+    "./dyad": {
+      "import": {
+        "types": "./dist/dyad.d.ts",
+        "default": "./dist/dyad.js"
+      },
+      "require": {
+        "types": "./dist/dyad.d.cts",
+        "default": "./dist/dyad.cjs"
+      }
+    },
+    "./mesoscale": {
+      "import": {
+        "types": "./dist/mesoscale.d.ts",
+        "default": "./dist/mesoscale.js"
+      },
+      "require": {
+        "types": "./dist/mesoscale.d.cts",
+        "default": "./dist/mesoscale.cjs"
+      }
+    },
+    "./visualization": {
+      "import": {
+        "types": "./dist/visualization.d.ts",
+        "default": "./dist/visualization.js"
+      },
+      "require": {
+        "types": "./dist/visualization.d.cts",
+        "default": "./dist/visualization.cjs"
+      }
+    },
+    "./io": {
+      "import": {
+        "types": "./dist/io.d.ts",
+        "default": "./dist/io.js"
+      },
+      "require": {
+        "types": "./dist/io.d.cts",
+        "default": "./dist/io.cjs"
+      }
+    },
+    "./react": {
+      "import": {
+        "types": "./dist/react/index.d.ts",
+        "default": "./dist/react/index.js"
+      },
+      "require": {
+        "types": "./dist/react/index.d.cts",
+        "default": "./dist/react/index.cjs"
+      }
+    },
+    "./react/styles.css": "./dist/react/styles.css",
+    "./node": {
+      "import": {
+        "types": "./dist/node.d.ts",
+        "default": "./dist/node.js"
+      },
+      "require": {
+        "types": "./dist/node.d.cts",
+        "default": "./dist/node.cjs"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "examples/data",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE",
+    "LICENSE.upstream",
+    "NOTICE.md",
+    "SECURITY.md",
+    "CITATION.cff",
+    "UPSTREAM.md",
+    "docs/PARITY.md"
+  ],
+  "sideEffects": [
+    "./dist/react/styles.css"
+  ],
+  "engines": {
+    "node": ">=20.9"
+  },
+  "scripts": {
+    "clean": "node scripts/clean.mjs",
+    "build": "npm run clean && tsup && node scripts/copy-static.mjs",
+    "dev": "tsup --watch",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "test:package": "node scripts/verify-package.mjs",
+    "test:next": "node scripts/verify-next.mjs",
+    "data:build": "node scripts/build-example-data.mjs",
+    "data:check": "node scripts/build-example-data.mjs --check",
+    "benchmark": "npm run build && node scripts/benchmark.mjs",
+    "check:licenses": "node scripts/check-licenses.mjs",
+    "check:secrets": "node scripts/check-secrets.mjs",
+    "check": "npm run data:check && npm run lint && npm run typecheck && npm test && npm run build && npm run test:package && npm run check:licenses && npm run check:secrets",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "@e965/xlsx": "^0.20.3",
+    "@stdlib/stats-base-dists-binomial-quantile": "^0.2.3",
+    "cytoscape": "^3.34.1",
+    "papaparse": "^5.6.0"
+  },
+  "peerDependencies": {
+    "react": ">=18.2 <20",
+    "react-dom": ">=18.2 <20"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.34.0",
+    "@arethetypeswrong/cli": "^0.18.2",
+    "@playwright/test": "^1.55.0",
+    "@testing-library/jest-dom": "^6.8.0",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/cytoscape": "^3.21.9",
+    "@types/node": "^24.3.0",
+    "@types/papaparse": "^5.3.16",
+    "@types/react": "^19.1.11",
+    "@types/react-dom": "^19.1.7",
+    "eslint": "^9.34.0",
+    "fast-check": "^4.3.0",
+    "jsdom": "^26.1.0",
+    "next": "^16.0.0",
+    "publint": "^0.3.12",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.41.0",
+    "vitest": "^4.1.11"
+  }
+}
