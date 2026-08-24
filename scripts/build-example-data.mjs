@@ -5,9 +5,9 @@ import { fileURLToPath } from "node:url";
 import * as XLSX from "@e965/xlsx";
 
 const projectRoot = fileURLToPath(new URL("../", import.meta.url));
-const sourcePath = new URL("../Yu_ena_coded_data_0712.xlsx", import.meta.url);
 const exampleDirectory = new URL("../examples/data/", import.meta.url);
 const sourceCopyPath = new URL("Yu_ena_coded_data_0712.xlsx", exampleDirectory);
+const localSourcePath = new URL("../Yu_ena_coded_data_0712.xlsx", import.meta.url);
 const csvPath = new URL("yu-hina-long.csv", exampleDirectory);
 const workbookPath = new URL("yu-hina-long.xlsx", exampleDirectory);
 
@@ -178,10 +178,18 @@ function assertDerivedWorkbook(bytes, expectedRows) {
 }
 
 const checkOnly = process.argv.includes("--check");
-const sourceBytes = await readFile(sourcePath);
+const sourceBytes = await readFile(sourceCopyPath);
 assertContract(sha256(sourceBytes) === EXPECTED_SOURCE_HASH, "source SHA-256 changed");
-const sourceCopyBytes = await readFile(sourceCopyPath);
-assertContract(Buffer.compare(sourceBytes, sourceCopyBytes) === 0, "published source copy is not byte-identical");
+const localSourceBytes = await readFile(localSourcePath).catch((error) => {
+  if (error instanceof Error && "code" in error && error.code === "ENOENT") return null;
+  throw error;
+});
+if (localSourceBytes !== null) {
+  assertContract(
+    Buffer.compare(sourceBytes, localSourceBytes) === 0,
+    "published source copy is not byte-identical to the local original",
+  );
+}
 const sourceRows = readSourceRows(sourceBytes);
 const { interactions, allZeroRows } = transformRows(sourceRows);
 const csv = toCsv(interactions);
@@ -205,6 +213,7 @@ console.log(
     checkOnly,
     projectRoot,
     sourceSha256: EXPECTED_SOURCE_HASH,
+    localSourceVerified: localSourceBytes !== null,
     sourceRows: sourceRows.length,
     interactionRows: interactions.length,
     allZeroRows,
