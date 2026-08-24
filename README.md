@@ -14,9 +14,11 @@ or upload requirement. Its core graph and analysis results contain only plain,
 JSON-safe objects and arrays, so they can cross Next.js Server/Client boundaries
 and be moved to a Web Worker by a host application.
 
-> Status: the source tree targets `0.1.0`. Install from npm only after the
-> release badge and registry command below are live; until then, use `npm pack`
-> from this repository.
+> Current release: [`hina-js@0.1.1`](https://www.npmjs.com/package/hina-js/v/0.1.1),
+> with its matching
+> [GitHub Release](https://github.com/HUDongpin/hina/releases/tag/v0.1.1).
+> The initial `0.1.0` release remains in the release history. See the
+> [changelog](./CHANGELOG.md) for version-by-version details.
 
 ## Features
 
@@ -255,9 +257,10 @@ export function GET() {
 ```
 
 Keep the workbench behind a file containing `"use client"`. The repository's
-`examples/next-app` fixture is tested against a packed `hina-js-0.1.0.tgz`, not a
-workspace symlink, so package exports, CSS, declarations, Server Components,
-Client Components, Edge code, and the production bundler are checked together.
+`examples/next-app` fixture is tested against the real `hina-js-<version>.tgz`
+returned by `npm pack --json`, not a workspace symlink, so package exports, CSS,
+declarations, Server Components, Client Components, Edge code, and the production
+bundler are checked together.
 
 ## Practice dataset
 
@@ -333,8 +336,8 @@ Construction and individual metrics are linear in interaction count. Projection
 is quadratic in the projected node count. Deterministic greedy MDL community
 detection is intentionally aimed at research-sized networks and may dominate
 runtime and memory for large actor sets. The release process records the bundled
-practice dataset and a 10,000-interaction synthetic benchmark, but `0.1.0` makes
-no unlimited-scale, streaming, or real-time guarantee.
+practice dataset and a 10,000-interaction synthetic benchmark, but the `0.1.x`
+series makes no unlimited-scale, streaming, or real-time guarantee.
 
 This package does not provide a hosted website, authentication, database, upload
 service, API server, CLI, Python/WASM runtime, or cloud deployment.
@@ -360,6 +363,7 @@ ordinary CI does not install Python or fetch the upstream repository. See
 [CONTRIBUTING.md](./CONTRIBUTING.md) for the oracle regeneration and release
 gates. The fixed upstream suite's 47 pytest items are mapped one by one in the
 [upstream test matrix](https://github.com/HUDongpin/hina/blob/main/docs/UPSTREAM_TEST_MATRIX.md).
+Release-by-release changes are recorded in [CHANGELOG.md](./CHANGELOG.md).
 
 ## Citation, license, and attribution
 

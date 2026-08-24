@@ -275,7 +275,7 @@ export async function exportResultsXlsx(
 
   const metadata = {
     package: "hina-js",
-    version: "0.1.0",
+    version: "0.1.1",
     generatedAt: options.generatedAt ?? new Date().toISOString(),
     graphKind: bundle.graph?.kind ?? null,
     nodeCount: bundle.graph?.nodes.length ?? null,

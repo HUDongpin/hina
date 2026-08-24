@@ -207,6 +207,8 @@ describe("exportResultsXlsx", () => {
     expect(
       xlsx.utils.sheet_to_json(exported.Sheets["Metadata"]!),
     ).toEqual(expect.arrayContaining([
+      { key: "package", value: "hina-js" },
+      { key: "version", value: "0.1.1" },
       { key: "generatedAt", value: "2026-08-24T00:00:00.000Z" },
       { key: "dataset", value: "sample" },
       { key: "nodeCount", value: build.graph.nodes.length },

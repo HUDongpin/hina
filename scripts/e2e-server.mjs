@@ -82,6 +82,7 @@ await Promise.all([
     "package.json",
     "README.md",
     "README.zh-CN.md",
+    "CHANGELOG.md",
     "LICENSE",
     "LICENSE.upstream",
     "NOTICE.md",

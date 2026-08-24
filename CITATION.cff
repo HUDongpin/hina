@@ -3,7 +3,7 @@ message: >-
   If you use hina-js, cite this software and the original HINA article.
 title: "hina-js: Heterogeneous Interaction Network Analysis in TypeScript"
 type: software
-version: 0.1.0
+version: 0.1.1
 date-released: 2026-08-24
 license: MIT
 repository-code: "https://github.com/HUDongpin/hina"
@@ -13,7 +13,7 @@ authors:
 preferred-citation:
   type: software
   title: "hina-js: Heterogeneous Interaction Network Analysis in TypeScript"
-  version: 0.1.0
+  version: 0.1.1
   repository-code: "https://github.com/HUDongpin/hina"
 references:
   - type: article

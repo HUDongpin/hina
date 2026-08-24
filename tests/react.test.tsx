@@ -2,6 +2,7 @@
 
 import {
   cleanup,
+  fireEvent,
   render,
   screen,
   waitFor,
@@ -173,6 +174,57 @@ describe("HinaNetwork", () => {
 
     unmount();
     expect(cytoscapeMock.destroy).toHaveBeenCalledOnce();
+  });
+
+  it("keeps exported Blob URLs alive until the browser has started the download", async () => {
+    vi.useFakeTimers();
+    const originalCreateObjectUrl = Object.getOwnPropertyDescriptor(
+      URL,
+      "createObjectURL",
+    );
+    const originalRevokeObjectUrl = Object.getOwnPropertyDescriptor(
+      URL,
+      "revokeObjectURL",
+    );
+    const createObjectUrl = vi.fn(() => "blob:hina-network");
+    const revokeObjectUrl = vi.fn();
+    Object.defineProperties(URL, {
+      createObjectURL: { configurable: true, value: createObjectUrl },
+      revokeObjectURL: { configurable: true, value: revokeObjectUrl },
+    });
+    const anchorClick = vi
+      .spyOn(HTMLAnchorElement.prototype, "click")
+      .mockImplementation(() => undefined);
+
+    try {
+      const result = sampleResult();
+      render(<HinaNetwork graph={result.graph} layout={result.layout} />);
+      await vi.waitFor(() => expect(cytoscapeMock.factory).toHaveBeenCalledOnce());
+
+      fireEvent.click(screen.getByRole("button", { name: "Export PNG" }));
+
+      expect(createObjectUrl).toHaveBeenCalledOnce();
+      expect(anchorClick).toHaveBeenCalledOnce();
+      expect(revokeObjectUrl).not.toHaveBeenCalled();
+      expect(document.querySelector('a[download="hina-network.png"]')).not.toBeNull();
+
+      await vi.advanceTimersByTimeAsync(1_000);
+      expect(revokeObjectUrl).toHaveBeenCalledWith("blob:hina-network");
+      expect(document.querySelector('a[download="hina-network.png"]')).toBeNull();
+    } finally {
+      if (originalCreateObjectUrl === undefined) {
+        Reflect.deleteProperty(URL, "createObjectURL");
+      } else {
+        Object.defineProperty(URL, "createObjectURL", originalCreateObjectUrl);
+      }
+      if (originalRevokeObjectUrl === undefined) {
+        Reflect.deleteProperty(URL, "revokeObjectURL");
+      } else {
+        Object.defineProperty(URL, "revokeObjectURL", originalRevokeObjectUrl);
+      }
+      anchorClick.mockRestore();
+      vi.useRealTimers();
+    }
   });
 });
 

@@ -304,8 +304,13 @@ function downloadBlob(blob: Blob, fileName: string): void {
   const anchor = document.createElement("a");
   anchor.href = url;
   anchor.download = fileName;
+  anchor.hidden = true;
+  document.body.append(anchor);
   anchor.click();
-  URL.revokeObjectURL(url);
+  window.setTimeout(() => {
+    anchor.remove();
+    URL.revokeObjectURL(url);
+  }, 1_000);
 }
 
 /** Accessible Cytoscape renderer; Cytoscape is instantiated only in an effect. */

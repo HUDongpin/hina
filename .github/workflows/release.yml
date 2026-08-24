@@ -38,9 +38,5 @@ jobs:
       - run: npm run test:next
       - run: npx playwright install --with-deps chromium
       - run: npm run test:e2e
-      - name: Publish public package with provenance
-        env:
-          # Only the initial name-claim can fall back to this one-time secret.
-          # Delete the secret after configuring npm Trusted Publishing.
-          NPM_TOKEN: ${{ github.event.release.tag_name == 'v0.1.0' && secrets.NPM_TOKEN || '' }}
-        run: node scripts/publish.mjs
+      - name: Publish via npm Trusted Publishing
+        run: npm publish --access public --provenance --registry=https://registry.npmjs.org/

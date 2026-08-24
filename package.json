@@ -1,6 +1,6 @@
 {
   "name": "hina-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A deterministic, JSON-safe TypeScript port of HINA for browsers, Node.js, Edge runtimes, React, and Next.js.",
   "keywords": [
     "hina",
@@ -125,6 +125,7 @@
     "examples/data",
     "README.md",
     "README.zh-CN.md",
+    "CHANGELOG.md",
     "LICENSE",
     "LICENSE.upstream",
     "NOTICE.md",

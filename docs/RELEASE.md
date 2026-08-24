@@ -1,20 +1,55 @@
 # Release runbook
 
-## Fail-closed preflight
+This runbook applies to `v0.1.1` and every later release. The completed `v0.1.0`
+bootstrap is recorded separately at the end and is not a reusable publishing
+procedure.
 
-1. Confirm the intended version, a clean `main`, and that the GitHub repository
-   is public. npm provenance for a public package requires a public source
-   repository.
-2. Re-authenticate GitHub CLI and npm as the `HUDongpin` Owner, and complete
-   required 2FA or protected-environment approval.
-3. Query `hina-js` again. If another owner has claimed the name, stop; do not
-   publish under a substitute name without an explicit product decision.
+## Authentication boundary
+
+Current and future npm publication uses only GitHub Actions OpenID Connect (OIDC)
+Trusted Publishing. The npm Trusted Publisher identity must exactly match:
+
+- provider: GitHub Actions;
+- organization or user: `HUDongpin`;
+- repository: `hina`;
+- workflow filename: `release.yml` (filename only);
+- environment: `npm`; and
+- allowed action: `npm publish`.
+
+The protected `npm` GitHub Environment requires Owner review and is limited to
+release tags matching `v*`. Its former `NPM_TOKEN` secret has been deleted, and
+the corresponding bootstrap token has been revoked at npm. The release workflow
+must not accept a registry token, OTP, or recovery code. npm account 2FA remains
+an Owner-side protection for interactive npm administration; GitHub Environment
+approval and npm 2FA are separate controls, neither of which is a credential to
+place in workflow input or logs.
+
+The release job runs on GitHub-hosted Ubuntu with Node 24 and npm 11.16.0. It
+grants only `contents: read` and `id-token: write`, disables dependency caching,
+pins every third-party Action to a complete commit SHA, and publishes with
+provenance. Do not replace it with a self-hosted runner.
+
+## Prepare `v<version>`
+
+1. Confirm the intended `<version>`, a clean `main`, and that the public GitHub
+   repository is the source named in `package.json`.
+2. Confirm the version agrees across `package.json`, both root version entries in
+   `package-lock.json`, `CITATION.cff`, exported workbook metadata,
+   `CHANGELOG.md`, and the proposed `v<version>` tag. Confirm `CITATION.cff` has
+   the intended release date.
+3. Confirm `CHANGELOG.md` and the release mapping in `UPSTREAM.md` state whether
+   the scientific baseline changed. A baseline change additionally requires
+   reviewed fixture regeneration and numerical-difference evidence.
 4. Run `npm ci`, `npm run data:check`, `npm run check`, `npm run test:next`, and
-   browser E2E on the exact release commit.
-5. Inspect `npm pack --json`, `publint`, and Are The Types Wrong output. Verify
+   browser E2E on the exact proposed release commit.
+5. Run the release preflight for `v<version>`. Only an explicit npm Registry
+   `E404` proves that `hina-js@<version>` is unpublished. Authentication,
+   authorization, network, timeout, malformed-response, or other Registry errors
+   must fail closed.
+6. Inspect `npm pack --json`, `publint`, and Are The Types Wrong output. Verify
    the tarball against this exact public allowlist:
 
-   - `package.json`, `README.md`, `README.zh-CN.md`, `LICENSE`,
+   - `package.json`, `README.md`, `README.zh-CN.md`, `CHANGELOG.md`, `LICENSE`,
      `LICENSE.upstream`, `NOTICE.md`, `SECURITY.md`, `CITATION.cff`,
      `UPSTREAM.md`, and `docs/PARITY.md`;
    - the four reviewed files under `examples/data/`; and
@@ -25,58 +60,66 @@
    test, script, CI configuration, release runbook, or unrelated large file may
    be present. `scripts/verify-package.mjs` enforces this list against the real
    tarball.
+7. Push the reviewed commit and wait for every required branch-protection check.
+   Create `v<version>` from that exact `main` commit, then publish the GitHub
+   Release for that tag. Do not move or recreate a release tag.
 
-## Trusted-publisher configuration
+## OIDC publication
 
-The protected release job runs on GitHub-hosted Ubuntu with Node 24 and npm
-11.16.0 (newer than npm's minimum trusted-publishing requirement of 11.5.1).
-It grants only `contents: read` and `id-token: write`, disables dependency
-caching for the release job, pins every third-party Action to a complete commit
-SHA, and publishes with provenance.
+Publishing the GitHub Release triggers `release.yml`. The protected job must:
 
-After the first npm name-claim, configure the `hina-js` Trusted Publisher with
-values that exactly match the repository and workflow:
+1. check out the immutable release tag;
+2. verify the tag, package identity, synchronized version, changelog, and exact
+   npm-version availability;
+3. repeat the scientific, package, Next.js, browser, license, audit, and secret
+   gates; and
+4. call `npm publish --access public --provenance` using only the OIDC identity.
 
-- provider: GitHub Actions;
-- organization or user: `HUDongpin`;
-- repository: `hina`;
-- workflow filename: `release.yml` (filename only);
-- environment: `npm`; and
-- allowed action: `npm publish`.
-
-Then delete the protected environment's `NPM_TOKEN`, revoke the npm automation
-token, and set npm package publishing access to require 2FA while disallowing
-tokens. Subsequent releases must authenticate only through the short-lived OIDC
-identity. Do not replace the GitHub-hosted runner with a self-hosted runner.
-
-## First release
-
-The Owner creates the public `HUDongpin/hina` repository, enables required
-status checks and branch protection, and approves the protected `npm`
-environment. A one-time minimal npm granular token may be used only to establish
-the first package publication with `--access public --provenance`; delete it
-immediately after configuring GitHub Actions as the package's Trusted Publisher.
-The workflow can read that fallback secret only for the `v0.1.0` tag; later
-release tags receive an empty token even if the secret was mistakenly retained.
-
-Create `v0.1.0` from the same commit as GitHub `main`. The release workflow must
-verify that the tag and `package.json` version match before npm publication. Do
-not create the GitHub Release until CI has passed for that exact commit.
+The workflow must not contain a token fallback. A prompt for npm OTP, an `EOTP`
+failure, a missing OIDC claim, or an npm authorization error means publication
+failed. Do not switch to a token or manually promote the GitHub run as green.
 
 ## Post-publication proof
 
-From a new temporary directory, install `hina-js@0.1.0` from the public registry
-and repeat ESM, CommonJS, declaration, browser, Edge, and Next production-build
-smoke tests. Confirm:
+From a new temporary directory, install `hina-js@<version>` from the public
+registry and repeat ESM, CommonJS, declaration, browser, Edge, and Next
+production-build smoke tests. Confirm:
 
-- GitHub default branch and Release resolve to the same commit.
-- npm provenance, repository URL, license, version, and declaration links.
-- `npm view hina-js@0.1.0` returns the expected metadata.
+- GitHub `main`, tag `v<version>`, and the GitHub Release resolve to the same
+  commit.
+- `npm view hina-js@<version>` returns the intended version, repository, license,
+  engines, exports, and declaration links.
+- npm displays valid GitHub Actions provenance for the public package.
 - `npm audit signatures` verifies registry signatures and provenance.
-- The public tarball allowlist is identical to the reviewed local package.
+- Registry tarball shasum/integrity and contents match the reviewed release
+  artifact and public allowlist.
+- The npm version and GitHub Release are linked from `CHANGELOG.md`.
 
 If any identity, scientific, package, Next, browser, provenance, hash, or
-licensing check fails, do not publish or promote the release.
+licensing check fails, do not promote the release. Preserve the evidence and
+prepare a new version; npm versions and Git tags are immutable.
+
+## Historical receipt: `v0.1.0`
+
+`hina-js@0.1.0` was the initial public name claim on 2026-08-24. GitHub `main`,
+tag `v0.1.0`, and the
+[GitHub Release](https://github.com/HUDongpin/hina/releases/tag/v0.1.0) resolve to
+commit `06905a995b6a8a2c85345e54668ff8e6364c1bb0`; the package is public on
+[npm](https://www.npmjs.com/package/hina-js/v/0.1.0).
+
+The final GitHub Actions release attempt for `v0.1.0` ended red with npm `EOTP`.
+It is a failed token-authenticated workflow attempt, not evidence that Trusted
+Publishing succeeded. The subsequently public package was checked against the
+same reviewed `v0.1.0` source/artifact, and npm exposes valid GitHub Actions
+provenance for that public artifact. Artifact and provenance consistency does
+not retroactively turn the red Actions run into a successful Trusted Publisher
+run.
+
+After the bootstrap, the `NPM_TOKEN` GitHub Environment secret was deleted and
+the token was revoked at npm. The fallback was retired rather than carried into
+`v0.1.1`. Therefore `v0.1.1` and later releases must establish their own green,
+OIDC-only Trusted Publishing evidence; they cannot inherit a success claim from
+the red `v0.1.0` run.
 
 ## Authoritative references
 

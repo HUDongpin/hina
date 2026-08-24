@@ -15,10 +15,18 @@ const files = execFileSync(
   .split("\0")
   .filter(Boolean);
 const findings = [];
+let scannedFiles = 0;
 
 for (const file of files) {
   const fileUrl = new URL(`../${file}`, import.meta.url);
-  const metadata = await stat(fileUrl);
+  let metadata;
+  try {
+    metadata = await stat(fileUrl);
+  } catch (error) {
+    if (error?.code === "ENOENT") continue;
+    throw error;
+  }
+  scannedFiles += 1;
   if (metadata.size > 5_000_000) continue;
   const bytes = await readFile(fileUrl);
   if (bytes.includes(0)) continue;
@@ -32,5 +40,5 @@ if (findings.length > 0) {
   console.error(JSON.stringify({ findings }, null, 2));
   process.exitCode = 1;
 } else {
-  console.log(JSON.stringify({ scannedFiles: files.length, findings: 0 }));
+  console.log(JSON.stringify({ scannedFiles, findings: 0 }));
 }
